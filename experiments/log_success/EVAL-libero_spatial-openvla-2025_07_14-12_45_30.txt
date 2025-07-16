@@ -1,0 +1,2446 @@
+Task suite: libero_spatial
+token_prune: True
+layer_prune: False
+action_adapter: True
+ATTN_TOPK_WRIST = 20
+ ATTN_TOPK_WRIST = 20
+ ATTN_TOPK_PRECISE = 40
+ PRIMARY_TOPK = 220
+ PRIMARY_TOPK_PRECISE = 200
+ WRIST_TOPK = 220
+ WRIST_TOPK_PRECISE = 180
+
+Using default initial states
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.2610
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0780
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=2--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0778
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=3--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0807
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=4--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0799
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=5--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0799
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=6--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0796
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=7--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0953
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=8--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0792
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=9--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0816
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=10--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0784
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=11--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0780
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=12--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0801
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=13--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0789
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=14--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 14
+# successes: 14 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0786
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=15--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 15
+# successes: 15 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0780
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=16--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 16 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0786
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=17--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 17
+# successes: 17 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0801
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=18--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 18
+# successes: 18 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0787
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=19--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 19
+# successes: 19 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0797
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=20--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 20
+# successes: 20 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0789
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=21--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 21
+# successes: 21 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0854
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=22--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: False
+# episodes completed so far: 22
+# successes: 21 (95.5%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0794
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=23--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 22 (95.7%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0798
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=24--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 24
+# successes: 23 (95.8%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0773
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=25--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 24 (96.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0794
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=26--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 25 (96.2%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0778
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=27--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 27
+# successes: 26 (96.3%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0790
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=28--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 27 (96.4%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0792
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=29--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 29
+# successes: 28 (96.6%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0782
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=30--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 29 (96.7%)
+Current task success rate: 0.9666666666666667
+Current total success rate: 0.9666666666666667
+Using default initial states
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0767
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=31--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 31
+# successes: 30 (96.8%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0776
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=32--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 31 (96.9%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0762
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=33--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 32 (97.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0775
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=34--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 33 (97.1%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0783
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=35--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 34 (97.1%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0777
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=36--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 35 (97.2%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0772
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=37--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 36 (97.3%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0775
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=38--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 37 (97.4%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0773
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=39--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 38 (97.4%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0770
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=40--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 40
+# successes: 39 (97.5%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0768
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=41--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 41
+# successes: 40 (97.6%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0779
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=42--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 41 (97.6%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0772
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=43--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 43
+# successes: 42 (97.7%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0764
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=44--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 43 (97.7%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0784
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=45--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 44 (97.8%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0771
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=46--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 46
+# successes: 45 (97.8%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0758
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=47--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 47
+# successes: 46 (97.9%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0783
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=48--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 47 (97.9%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0763
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=49--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 49
+# successes: 48 (98.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0789
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=50--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 50
+# successes: 49 (98.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0772
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=51--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 51
+# successes: 50 (98.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0780
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=52--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 52
+# successes: 51 (98.1%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0761
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=53--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 53
+# successes: 52 (98.1%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0781
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=54--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 54
+# successes: 53 (98.1%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0758
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=55--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 55
+# successes: 54 (98.2%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0750
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=56--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 56
+# successes: 55 (98.2%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0767
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=57--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 57
+# successes: 56 (98.2%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0771
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=58--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 58
+# successes: 57 (98.3%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0783
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=59--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 59
+# successes: 58 (98.3%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0762
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=60--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 60
+# successes: 59 (98.3%)
+Current task success rate: 1.0
+Current total success rate: 0.9833333333333333
+Using default initial states
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0796
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=61--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 61
+# successes: 60 (98.4%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0767
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=62--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 62
+# successes: 61 (98.4%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0790
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=63--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 63
+# successes: 62 (98.4%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0777
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=64--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 64
+# successes: 63 (98.4%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0766
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=65--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 65
+# successes: 64 (98.5%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0754
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=66--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 66
+# successes: 65 (98.5%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0791
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=67--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 67
+# successes: 66 (98.5%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0794
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=68--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 68
+# successes: 67 (98.5%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0779
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=69--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 69
+# successes: 68 (98.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0754
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=70--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 70
+# successes: 69 (98.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0798
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=71--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 71
+# successes: 70 (98.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0782
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=72--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 72
+# successes: 71 (98.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0779
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=73--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 73
+# successes: 72 (98.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0811
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=74--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 74
+# successes: 73 (98.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0773
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=75--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 75
+# successes: 74 (98.7%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0812
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=76--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 76
+# successes: 75 (98.7%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0770
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=77--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 77
+# successes: 76 (98.7%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0831
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=78--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 78
+# successes: 77 (98.7%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0781
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=79--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 79
+# successes: 78 (98.7%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0801
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=80--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 80
+# successes: 79 (98.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0785
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=81--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 81
+# successes: 80 (98.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0799
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=82--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 82
+# successes: 81 (98.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0775
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=83--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 83
+# successes: 82 (98.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0789
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=84--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 84
+# successes: 83 (98.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0756
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=85--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 85
+# successes: 84 (98.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0783
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=86--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 86
+# successes: 85 (98.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0780
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=87--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 87
+# successes: 86 (98.9%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0754
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=88--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 88
+# successes: 87 (98.9%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0801
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=89--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 89
+# successes: 88 (98.9%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0761
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=90--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 90
+# successes: 89 (98.9%)
+Current task success rate: 1.0
+Current total success rate: 0.9888888888888889
+Using default initial states
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0754
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=91--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 91
+# successes: 90 (98.9%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0786
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=92--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 92
+# successes: 91 (98.9%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0777
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=93--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 93
+# successes: 92 (98.9%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0797
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=94--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 94
+# successes: 93 (98.9%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0779
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=95--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 95
+# successes: 94 (98.9%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0793
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=96--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 96
+# successes: 95 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0795
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=97--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 97
+# successes: 96 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0783
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=98--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 98
+# successes: 97 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0758
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=99--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 99
+# successes: 98 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0806
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=100--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 100
+# successes: 99 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0794
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=101--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 101
+# successes: 100 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0775
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=102--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 102
+# successes: 101 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0752
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=103--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 103
+# successes: 102 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0769
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=104--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 104
+# successes: 103 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0759
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=105--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 105
+# successes: 104 (99.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0767
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=106--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 106
+# successes: 105 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0750
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=107--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 107
+# successes: 106 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0774
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=108--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 108
+# successes: 107 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0755
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=109--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 109
+# successes: 108 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0783
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=110--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 110
+# successes: 109 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0798
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=111--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 111
+# successes: 110 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0956
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=112--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 112
+# successes: 111 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0780
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=113--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 113
+# successes: 112 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0785
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=114--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 114
+# successes: 113 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0760
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=115--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 115
+# successes: 114 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0780
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=116--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 116
+# successes: 115 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0761
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=117--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 117
+# successes: 116 (99.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0771
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=118--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 118
+# successes: 117 (99.2%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0772
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=119--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 119
+# successes: 118 (99.2%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0777
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=120--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 120
+# successes: 119 (99.2%)
+Current task success rate: 1.0
+Current total success rate: 0.9916666666666667
+Using default initial states
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0834
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=121--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 121
+# successes: 120 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0835
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=122--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 122
+# successes: 121 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0817
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=123--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 123
+# successes: 122 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0797
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=124--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 124
+# successes: 123 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0788
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=125--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 125
+# successes: 124 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0791
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=126--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 126
+# successes: 125 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0810
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=127--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 127
+# successes: 126 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0796
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=128--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 128
+# successes: 127 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0813
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=129--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 129
+# successes: 128 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0843
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=130--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 130
+# successes: 129 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0797
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=131--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 131
+# successes: 130 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0815
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=132--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 132
+# successes: 131 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0826
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=133--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 133
+# successes: 132 (99.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0820
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=134--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 134
+# successes: 133 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0848
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=135--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 135
+# successes: 134 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0812
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=136--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 136
+# successes: 135 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0806
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=137--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 137
+# successes: 136 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0807
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=138--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 138
+# successes: 137 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0804
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=139--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 139
+# successes: 138 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0788
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=140--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 140
+# successes: 139 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0826
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=141--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 141
+# successes: 140 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0821
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=142--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 142
+# successes: 141 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0820
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=143--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 143
+# successes: 142 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0821
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=144--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 144
+# successes: 143 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0817
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=145--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 145
+# successes: 144 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0837
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=146--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 146
+# successes: 145 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0822
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=147--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 147
+# successes: 146 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0814
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=148--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 148
+# successes: 147 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0825
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=149--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: True
+# episodes completed so far: 149
+# successes: 148 (99.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0856
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=150--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Success: False
+# episodes completed so far: 150
+# successes: 148 (98.7%)
+Current task success rate: 0.9666666666666667
+Current total success rate: 0.9866666666666667
+Using default initial states
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0757
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=151--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 151
+# successes: 149 (98.7%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0760
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=152--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 152
+# successes: 150 (98.7%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0776
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=153--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 153
+# successes: 151 (98.7%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0823
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=154--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: False
+# episodes completed so far: 154
+# successes: 151 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0773
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=155--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 155
+# successes: 152 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0759
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=156--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 156
+# successes: 153 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0750
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=157--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 157
+# successes: 154 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0774
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=158--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 158
+# successes: 155 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0772
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=159--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 159
+# successes: 156 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0866
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=160--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 160
+# successes: 157 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0767
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=161--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 161
+# successes: 158 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0775
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=162--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 162
+# successes: 159 (98.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0773
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=163--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 163
+# successes: 160 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0784
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=164--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 164
+# successes: 161 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0775
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=165--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 165
+# successes: 162 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0782
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=166--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 166
+# successes: 163 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0781
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=167--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 167
+# successes: 164 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0776
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=168--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 168
+# successes: 165 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0817
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=169--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 169
+# successes: 166 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0796
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=170--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 170
+# successes: 167 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0806
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=171--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 171
+# successes: 168 (98.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0872
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=172--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 172
+# successes: 169 (98.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0829
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=173--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 173
+# successes: 170 (98.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0798
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=174--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 174
+# successes: 171 (98.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0809
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=175--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 175
+# successes: 172 (98.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0782
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=176--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 176
+# successes: 173 (98.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0784
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=177--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 177
+# successes: 174 (98.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0861
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=178--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 178
+# successes: 175 (98.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0792
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=179--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 179
+# successes: 176 (98.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0791
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=180--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Success: True
+# episodes completed so far: 180
+# successes: 177 (98.3%)
+Current task success rate: 0.9666666666666667
+Current total success rate: 0.9833333333333333
+Using default initial states
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0803
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=181--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 181
+# successes: 178 (98.3%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0782
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=182--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 182
+# successes: 179 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0846
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=183--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 183
+# successes: 180 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0841
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=184--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 184
+# successes: 181 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0779
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=185--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 185
+# successes: 182 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0819
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=186--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 186
+# successes: 183 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0913
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=187--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 187
+# successes: 184 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0784
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=188--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 188
+# successes: 185 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0761
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=189--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 189
+# successes: 186 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0823
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=190--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 190
+# successes: 187 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0799
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=191--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 191
+# successes: 188 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0808
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=192--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 192
+# successes: 189 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0795
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=193--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 193
+# successes: 190 (98.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0836
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=194--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 194
+# successes: 191 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0889
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=195--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 195
+# successes: 192 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0824
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=196--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 196
+# successes: 193 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0764
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=197--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 197
+# successes: 194 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0832
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=198--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 198
+# successes: 195 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0784
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=199--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 199
+# successes: 196 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0850
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=200--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 200
+# successes: 197 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0791
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=201--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 201
+# successes: 198 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0850
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=202--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 202
+# successes: 199 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0821
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=203--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 203
+# successes: 200 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0831
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=204--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 204
+# successes: 201 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0833
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=205--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 205
+# successes: 202 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0805
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=206--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 206
+# successes: 203 (98.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0825
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=207--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 207
+# successes: 204 (98.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0829
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=208--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 208
+# successes: 205 (98.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0840
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=209--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 209
+# successes: 206 (98.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0849
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=210--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Success: True
+# episodes completed so far: 210
+# successes: 207 (98.6%)
+Current task success rate: 1.0
+Current total success rate: 0.9857142857142858
+Using default initial states
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0794
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=211--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 211
+# successes: 208 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0823
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=212--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 212
+# successes: 209 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0803
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=213--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 213
+# successes: 210 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0841
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=214--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 214
+# successes: 211 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0837
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=215--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 215
+# successes: 212 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0777
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=216--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 216
+# successes: 213 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0792
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=217--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 217
+# successes: 214 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0889
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=218--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 218
+# successes: 215 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0840
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=219--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 219
+# successes: 216 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0803
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=220--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 220
+# successes: 217 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0812
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=221--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 221
+# successes: 218 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0812
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=222--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 222
+# successes: 219 (98.6%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0831
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=223--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 223
+# successes: 220 (98.7%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0804
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=224--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 224
+# successes: 221 (98.7%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0835
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=225--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 225
+# successes: 222 (98.7%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0843
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=226--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 226
+# successes: 223 (98.7%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0841
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=227--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 227
+# successes: 224 (98.7%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0813
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=228--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 228
+# successes: 225 (98.7%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0896
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=229--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: False
+# episodes completed so far: 229
+# successes: 225 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0821
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=230--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 230
+# successes: 226 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0806
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=231--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 231
+# successes: 227 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0824
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=232--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 232
+# successes: 228 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0825
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=233--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 233
+# successes: 229 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0835
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=234--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 234
+# successes: 230 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0819
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=235--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 235
+# successes: 231 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0882
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=236--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 236
+# successes: 232 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0781
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=237--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 237
+# successes: 233 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0816
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=238--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 238
+# successes: 234 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0837
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=239--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 239
+# successes: 235 (98.3%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0818
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=240--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Success: True
+# episodes completed so far: 240
+# successes: 236 (98.3%)
+Current task success rate: 0.9666666666666667
+Current total success rate: 0.9833333333333333
+Using default initial states
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0786
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=241--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 241
+# successes: 237 (98.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0877
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=242--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 242
+# successes: 238 (98.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0784
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=243--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 243
+# successes: 239 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0809
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=244--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 244
+# successes: 240 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0826
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=245--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 245
+# successes: 241 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0801
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=246--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 246
+# successes: 242 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0876
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=247--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 247
+# successes: 243 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0818
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=248--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 248
+# successes: 244 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0788
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=249--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 249
+# successes: 245 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0838
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=250--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 250
+# successes: 246 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0946
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=251--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 251
+# successes: 247 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0897
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=252--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 252
+# successes: 248 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0796
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=253--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 253
+# successes: 249 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0920
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=254--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 254
+# successes: 250 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0827
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=255--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 255
+# successes: 251 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0795
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=256--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 256
+# successes: 252 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0792
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=257--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 257
+# successes: 253 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0794
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=258--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 258
+# successes: 254 (98.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0853
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=259--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 259
+# successes: 255 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0808
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=260--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 260
+# successes: 256 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0802
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=261--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 261
+# successes: 257 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0828
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=262--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 262
+# successes: 258 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0803
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=263--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 263
+# successes: 259 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0867
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=264--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 264
+# successes: 260 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0825
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=265--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 265
+# successes: 261 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0840
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=266--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 266
+# successes: 262 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0820
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=267--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 267
+# successes: 263 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0762
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=268--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 268
+# successes: 264 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0844
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=269--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 269
+# successes: 265 (98.5%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0755
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=270--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Success: True
+# episodes completed so far: 270
+# successes: 266 (98.5%)
+Current task success rate: 1.0
+Current total success rate: 0.9851851851851852
+Using default initial states
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0825
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=271--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 271
+# successes: 267 (98.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0824
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=272--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 272
+# successes: 268 (98.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0768
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=273--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 273
+# successes: 269 (98.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0860
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=274--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 274
+# successes: 270 (98.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0788
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=275--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 275
+# successes: 271 (98.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0821
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=276--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 276
+# successes: 272 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0832
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=277--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 277
+# successes: 273 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0831
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=278--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 278
+# successes: 274 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0833
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=279--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 279
+# successes: 275 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0906
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=280--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 280
+# successes: 276 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0908
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=281--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 281
+# successes: 277 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0826
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=282--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 282
+# successes: 278 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0846
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=283--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 283
+# successes: 279 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0793
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=284--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 284
+# successes: 280 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0812
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=285--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 285
+# successes: 281 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0815
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=286--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 286
+# successes: 282 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0844
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=287--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 287
+# successes: 283 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0877
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=288--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 288
+# successes: 284 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0797
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=289--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 289
+# successes: 285 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0824
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=290--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 290
+# successes: 286 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0834
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=291--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 291
+# successes: 287 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0810
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=292--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 292
+# successes: 288 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0828
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=293--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 293
+# successes: 289 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0879
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=294--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 294
+# successes: 290 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0842
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=295--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 295
+# successes: 291 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0799
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=296--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 296
+# successes: 292 (98.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0820
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=297--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 297
+# successes: 293 (98.7%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0806
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=298--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 298
+# successes: 294 (98.7%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0812
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=299--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 299
+# successes: 295 (98.7%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0826
+Saved rollout MP4 at path ./rollouts/2025_07_14/2025_07_14-12_45_30--openvla_oft--episode=300--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Success: True
+# episodes completed so far: 300
+# successes: 296 (98.7%)
+Current task success rate: 1.0
+Current total success rate: 0.9866666666666667
+Final results:
+Total episodes: 300
+Total successes: 296
+Overall success rate: 0.9867 (98.7%)

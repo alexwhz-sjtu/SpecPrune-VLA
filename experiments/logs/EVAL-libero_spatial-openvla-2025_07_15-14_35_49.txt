@@ -1,0 +1,1557 @@
+Task suite: libero_spatial
+token_prune: True
+layer_prune: True
+action_adapter: True
+
+    ATTN_TOPK_WRIST = 20
+    ATTN_TOPK_PRECISE = 40
+    PRIMARY_TOPK = 220
+    PRIMARY_TOPK_PRECISE = 200
+    WRIST_TOPK = 220
+    WRIST_TOPK_PRECISE = 220
+    
+Using default initial states
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+one_step infer time:1.896465
+one_step infer time:0.064606
+one_step infer time:0.065122
+one_step infer time:0.066419
+one_step infer time:0.064597
+one_step infer time:0.087799
+one_step infer time:0.087898
+one_step infer time:0.086810
+one_step infer time:0.066143
+one_step infer time:0.065730
+one_step infer time:0.064981
+one_step infer time:0.067147
+one_step infer time:0.066176
+one_step infer time:0.074567
+one_step infer time:0.085579
+task finished, average infer time:0.1940
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Current task success rate: 1.0
+Current total success rate: 1.0
+Using default initial states
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+one_step infer time:0.067124
+one_step infer time:0.061342
+one_step infer time:0.068512
+one_step infer time:0.065090
+one_step infer time:0.068271
+one_step infer time:0.064536
+one_step infer time:0.072136
+one_step infer time:0.076249
+one_step infer time:0.073165
+one_step infer time:0.083957
+one_step infer time:0.065547
+one_step infer time:0.066142
+one_step infer time:0.065122
+one_step infer time:0.065382
+one_step infer time:0.064940
+one_step infer time:0.063667
+one_step infer time:0.063671
+one_step infer time:0.064207
+one_step infer time:0.068064
+one_step infer time:0.068789
+one_step infer time:0.064813
+one_step infer time:0.065016
+one_step infer time:0.064484
+one_step infer time:0.064216
+one_step infer time:0.063528
+one_step infer time:0.064480
+one_step infer time:0.065953
+one_step infer time:0.067037
+one_step infer time:0.073682
+one_step infer time:0.066821
+one_step infer time:0.074985
+one_step infer time:0.073050
+task finished, average infer time:0.0676
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=2--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 2...
+one_step infer time:0.068467
+one_step infer time:0.069842
+one_step infer time:0.065082
+one_step infer time:0.070234
+one_step infer time:0.066137
+one_step infer time:0.064378
+one_step infer time:0.075309
+one_step infer time:0.074633
+one_step infer time:0.075520
+one_step infer time:0.065534
+one_step infer time:0.062745
+one_step infer time:0.064618
+one_step infer time:0.073928
+one_step infer time:0.064496
+one_step infer time:0.073220
+one_step infer time:0.066156
+one_step infer time:0.073510
+one_step infer time:0.066437
+one_step infer time:0.073595
+one_step infer time:0.073700
+one_step infer time:0.074000
+one_step infer time:0.085820
+one_step infer time:0.066541
+one_step infer time:0.085646
+one_step infer time:0.065027
+one_step infer time:0.073832
+one_step infer time:0.064234
+one_step infer time:0.073273
+one_step infer time:0.064063
+one_step infer time:0.073938
+one_step infer time:0.066314
+one_step infer time:0.074406
+one_step infer time:0.074000
+one_step infer time:0.075012
+one_step infer time:0.074152
+one_step infer time:0.066716
+one_step infer time:0.074734
+one_step infer time:0.065823
+one_step infer time:0.074585
+task finished, average infer time:0.0708
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=3--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+# episodes completed so far: 3
+# successes: 2 (66.7%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 3...
+one_step infer time:0.068215
+one_step infer time:0.063215
+one_step infer time:0.067306
+one_step infer time:0.065382
+one_step infer time:0.066890
+one_step infer time:0.064460
+one_step infer time:0.066220
+one_step infer time:0.074690
+one_step infer time:0.074299
+one_step infer time:0.074844
+one_step infer time:0.064998
+one_step infer time:0.064131
+one_step infer time:0.064417
+one_step infer time:0.063197
+one_step infer time:0.062928
+one_step infer time:0.062736
+one_step infer time:0.061944
+one_step infer time:0.061884
+one_step infer time:0.063333
+one_step infer time:0.064219
+one_step infer time:0.064268
+one_step infer time:0.064378
+one_step infer time:0.061971
+one_step infer time:0.062358
+one_step infer time:0.062022
+one_step infer time:0.062172
+one_step infer time:0.073892
+one_step infer time:0.063751
+one_step infer time:0.073186
+task finished, average infer time:0.0658
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=4--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 3 (75.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 4...
+one_step infer time:0.070897
+one_step infer time:0.065227
+one_step infer time:0.065823
+one_step infer time:0.065017
+one_step infer time:0.068815
+one_step infer time:0.066189
+one_step infer time:0.075729
+one_step infer time:0.074661
+one_step infer time:0.075392
+one_step infer time:0.066352
+one_step infer time:0.065950
+one_step infer time:0.064676
+one_step infer time:0.066207
+one_step infer time:0.065497
+one_step infer time:0.064340
+one_step infer time:0.065214
+one_step infer time:0.065355
+one_step infer time:0.065327
+one_step infer time:0.065540
+one_step infer time:0.066348
+one_step infer time:0.065008
+one_step infer time:0.074779
+one_step infer time:0.073939
+one_step infer time:0.074782
+task finished, average infer time:0.0682
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=5--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 4 (80.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 5...
+one_step infer time:0.066484
+one_step infer time:0.067844
+one_step infer time:0.064390
+one_step infer time:0.064983
+one_step infer time:0.066633
+one_step infer time:0.064139
+one_step infer time:0.074537
+one_step infer time:0.076465
+one_step infer time:0.081631
+one_step infer time:0.075420
+one_step infer time:0.063906
+one_step infer time:0.063230
+one_step infer time:0.063619
+one_step infer time:0.064178
+one_step infer time:0.063933
+one_step infer time:0.064002
+one_step infer time:0.062876
+one_step infer time:0.083747
+one_step infer time:0.075811
+one_step infer time:0.087253
+one_step infer time:0.085833
+one_step infer time:0.067347
+one_step infer time:0.085515
+one_step infer time:0.065992
+one_step infer time:0.086601
+one_step infer time:0.066736
+one_step infer time:0.085556
+one_step infer time:0.066157
+one_step infer time:0.083932
+one_step infer time:0.074273
+one_step infer time:0.084238
+one_step infer time:0.073130
+one_step infer time:0.084978
+one_step infer time:0.072417
+one_step infer time:0.083915
+one_step infer time:0.065466
+one_step infer time:0.084581
+one_step infer time:0.065952
+one_step infer time:0.084386
+one_step infer time:0.063761
+one_step infer time:0.073250
+one_step infer time:0.065014
+task finished, average infer time:0.0730
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=6--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+# episodes completed so far: 6
+# successes: 4 (66.7%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 6...
+one_step infer time:0.066943
+one_step infer time:0.061922
+one_step infer time:0.068130
+one_step infer time:0.065415
+one_step infer time:0.065238
+one_step infer time:0.064579
+one_step infer time:0.073794
+one_step infer time:0.079122
+one_step infer time:0.077108
+one_step infer time:0.073855
+one_step infer time:0.062062
+one_step infer time:0.061925
+one_step infer time:0.061747
+one_step infer time:0.061823
+one_step infer time:0.063444
+one_step infer time:0.063527
+one_step infer time:0.063643
+one_step infer time:0.061682
+one_step infer time:0.061924
+one_step infer time:0.062138
+one_step infer time:0.061973
+one_step infer time:0.073277
+one_step infer time:0.063818
+one_step infer time:0.073418
+one_step infer time:0.066053
+one_step infer time:0.073910
+one_step infer time:0.074076
+one_step infer time:0.073388
+one_step infer time:0.083492
+one_step infer time:0.065617
+one_step infer time:0.083523
+one_step infer time:0.070818
+one_step infer time:0.086723
+one_step infer time:0.065155
+one_step infer time:0.086191
+one_step infer time:0.066633
+one_step infer time:0.085915
+one_step infer time:0.066269
+one_step infer time:0.085909
+one_step infer time:0.073252
+one_step infer time:0.085282
+one_step infer time:0.066612
+one_step infer time:0.085526
+task finished, average infer time:0.0706
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=7--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+# episodes completed so far: 7
+# successes: 4 (57.1%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 7...
+one_step infer time:0.066720
+one_step infer time:0.062567
+one_step infer time:0.066125
+one_step infer time:0.065197
+one_step infer time:0.065455
+one_step infer time:0.065392
+one_step infer time:0.064795
+one_step infer time:0.075701
+one_step infer time:0.074378
+one_step infer time:0.084109
+one_step infer time:0.064759
+one_step infer time:0.074260
+one_step infer time:0.066561
+one_step infer time:0.073219
+one_step infer time:0.063834
+one_step infer time:0.063968
+one_step infer time:0.061821
+one_step infer time:0.061832
+one_step infer time:0.061912
+one_step infer time:0.064027
+one_step infer time:0.063929
+one_step infer time:0.064021
+one_step infer time:0.073185
+one_step infer time:0.062310
+one_step infer time:0.073944
+one_step infer time:0.074980
+task finished, average infer time:0.0677
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=8--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 5 (62.5%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 8...
+one_step infer time:0.067062
+one_step infer time:0.062023
+one_step infer time:0.066281
+one_step infer time:0.066545
+one_step infer time:0.066969
+one_step infer time:0.065052
+one_step infer time:0.075259
+one_step infer time:0.083095
+one_step infer time:0.074477
+one_step infer time:0.065401
+one_step infer time:0.062416
+one_step infer time:0.062548
+one_step infer time:0.062573
+one_step infer time:0.062222
+one_step infer time:0.062693
+one_step infer time:0.064965
+one_step infer time:0.064120
+one_step infer time:0.063826
+one_step infer time:0.067359
+one_step infer time:0.063721
+one_step infer time:0.062704
+one_step infer time:0.064074
+one_step infer time:0.063889
+one_step infer time:0.064396
+one_step infer time:0.075327
+one_step infer time:0.065117
+one_step infer time:0.084535
+one_step infer time:0.075522
+one_step infer time:0.094004
+one_step infer time:0.084442
+one_step infer time:0.067037
+one_step infer time:0.083561
+one_step infer time:0.064328
+one_step infer time:0.083784
+one_step infer time:0.065479
+one_step infer time:0.083848
+one_step infer time:0.064349
+one_step infer time:0.083660
+one_step infer time:0.071051
+one_step infer time:0.084332
+one_step infer time:0.070720
+one_step infer time:0.083957
+one_step infer time:0.073187
+one_step infer time:0.083664
+one_step infer time:0.065052
+one_step infer time:0.085647
+task finished, average infer time:0.0712
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=9--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 5 (55.6%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 9...
+one_step infer time:0.067681
+one_step infer time:0.062886
+one_step infer time:0.065645
+one_step infer time:0.064961
+one_step infer time:0.066783
+one_step infer time:0.064614
+one_step infer time:0.073246
+one_step infer time:0.072636
+one_step infer time:0.074482
+one_step infer time:0.075419
+one_step infer time:0.064681
+one_step infer time:0.065268
+one_step infer time:0.063166
+one_step infer time:0.063676
+one_step infer time:0.062950
+one_step infer time:0.063761
+one_step infer time:0.063564
+one_step infer time:0.064081
+one_step infer time:0.064454
+one_step infer time:0.064196
+one_step infer time:0.065416
+one_step infer time:0.064281
+one_step infer time:0.064018
+one_step infer time:0.067783
+one_step infer time:0.064699
+one_step infer time:0.075354
+one_step infer time:0.074715
+one_step infer time:0.073243
+one_step infer time:0.072367
+one_step infer time:0.063338
+one_step infer time:0.080349
+one_step infer time:0.064516
+one_step infer time:0.074619
+one_step infer time:0.064083
+one_step infer time:0.074468
+one_step infer time:0.083033
+one_step infer time:0.064942
+one_step infer time:0.073531
+one_step infer time:0.065317
+one_step infer time:0.074874
+one_step infer time:0.081933
+one_step infer time:0.083349
+one_step infer time:0.064865
+one_step infer time:0.082489
+one_step infer time:0.083561
+task finished, average infer time:0.0695
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=10--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+# episodes completed so far: 10
+# successes: 5 (50.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 10...
+one_step infer time:0.067671
+one_step infer time:0.064359
+one_step infer time:0.067462
+one_step infer time:0.066682
+one_step infer time:0.065448
+one_step infer time:0.067010
+one_step infer time:0.075880
+one_step infer time:0.075015
+one_step infer time:0.074083
+one_step infer time:0.064113
+one_step infer time:0.064714
+one_step infer time:0.064399
+one_step infer time:0.061378
+one_step infer time:0.061173
+one_step infer time:0.082330
+one_step infer time:0.065079
+one_step infer time:0.065799
+one_step infer time:0.066815
+one_step infer time:0.064705
+one_step infer time:0.065023
+one_step infer time:0.065074
+one_step infer time:0.064946
+one_step infer time:0.065486
+one_step infer time:0.072731
+one_step infer time:0.063647
+one_step infer time:0.080617
+one_step infer time:0.073723
+task finished, average infer time:0.0680
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=11--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 6 (54.5%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 11...
+one_step infer time:0.070914
+one_step infer time:0.065696
+one_step infer time:0.066429
+one_step infer time:0.068789
+one_step infer time:0.069567
+one_step infer time:0.071278
+one_step infer time:0.080204
+one_step infer time:0.073945
+one_step infer time:0.072415
+one_step infer time:0.063613
+one_step infer time:0.064183
+one_step infer time:0.061720
+one_step infer time:0.061640
+one_step infer time:0.061240
+one_step infer time:0.061488
+one_step infer time:0.061520
+one_step infer time:0.061515
+one_step infer time:0.061466
+one_step infer time:0.063261
+one_step infer time:0.063287
+one_step infer time:0.063513
+one_step infer time:0.063946
+one_step infer time:0.064201
+one_step infer time:0.063504
+one_step infer time:0.072375
+one_step infer time:0.061444
+one_step infer time:0.072252
+one_step infer time:0.075933
+task finished, average infer time:0.0665
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=12--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 12
+# successes: 7 (58.3%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 12...
+one_step infer time:0.066555
+one_step infer time:0.063791
+one_step infer time:0.064840
+one_step infer time:0.065052
+one_step infer time:0.065293
+one_step infer time:0.064265
+one_step infer time:0.073238
+one_step infer time:0.074384
+one_step infer time:0.073746
+one_step infer time:0.061725
+one_step infer time:0.062626
+one_step infer time:0.073097
+one_step infer time:0.061453
+one_step infer time:0.073192
+one_step infer time:0.061455
+one_step infer time:0.072581
+one_step infer time:0.073544
+one_step infer time:0.072580
+one_step infer time:0.073888
+one_step infer time:0.073581
+one_step infer time:0.063345
+one_step infer time:0.073050
+one_step infer time:0.061563
+one_step infer time:0.073087
+one_step infer time:0.062349
+one_step infer time:0.077164
+one_step infer time:0.077954
+one_step infer time:0.076859
+one_step infer time:0.089015
+one_step infer time:0.084653
+one_step infer time:0.065344
+one_step infer time:0.082969
+one_step infer time:0.063789
+one_step infer time:0.064422
+one_step infer time:0.083646
+one_step infer time:0.064833
+one_step infer time:0.084633
+one_step infer time:0.068094
+one_step infer time:0.066991
+one_step infer time:0.065776
+one_step infer time:0.075840
+one_step infer time:0.074657
+task finished, average infer time:0.0707
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=13--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 8 (61.5%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 13...
+one_step infer time:0.071127
+one_step infer time:0.066069
+one_step infer time:0.069420
+one_step infer time:0.066409
+one_step infer time:0.068388
+one_step infer time:0.065115
+one_step infer time:0.078776
+one_step infer time:0.074185
+one_step infer time:0.083509
+one_step infer time:0.064039
+one_step infer time:0.093545
+one_step infer time:0.064106
+one_step infer time:0.063896
+one_step infer time:0.063732
+one_step infer time:0.064316
+one_step infer time:0.064082
+one_step infer time:0.064502
+one_step infer time:0.065177
+one_step infer time:0.064914
+one_step infer time:0.063984
+one_step infer time:0.064746
+one_step infer time:0.071095
+one_step infer time:0.067372
+one_step infer time:0.078884
+one_step infer time:0.064174
+one_step infer time:0.073645
+task finished, average infer time:0.0692
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=14--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 14
+# successes: 9 (64.3%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 14...
+one_step infer time:0.068920
+one_step infer time:0.062452
+one_step infer time:0.065553
+one_step infer time:0.066280
+one_step infer time:0.066014
+one_step infer time:0.072620
+one_step infer time:0.073465
+one_step infer time:0.073797
+one_step infer time:0.074795
+one_step infer time:0.074244
+one_step infer time:0.061262
+one_step infer time:0.073921
+one_step infer time:0.068005
+one_step infer time:0.075854
+one_step infer time:0.075156
+one_step infer time:0.064565
+one_step infer time:0.073855
+one_step infer time:0.073142
+one_step infer time:0.094008
+one_step infer time:0.077593
+one_step infer time:0.065014
+one_step infer time:0.063434
+one_step infer time:0.063128
+one_step infer time:0.065035
+one_step infer time:0.064661
+one_step infer time:0.064657
+one_step infer time:0.064750
+one_step infer time:0.064553
+one_step infer time:0.065055
+one_step infer time:0.064448
+one_step infer time:0.064313
+one_step infer time:0.062554
+one_step infer time:0.076253
+one_step infer time:0.062703
+one_step infer time:0.074980
+one_step infer time:0.075881
+task finished, average infer time:0.0694
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=15--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 15
+# successes: 10 (66.7%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 15...
+one_step infer time:0.072114
+one_step infer time:0.064554
+one_step infer time:0.071331
+one_step infer time:0.066030
+one_step infer time:0.065507
+one_step infer time:0.065276
+one_step infer time:0.064782
+one_step infer time:0.073194
+one_step infer time:0.074058
+one_step infer time:0.073041
+one_step infer time:0.073631
+one_step infer time:0.066895
+one_step infer time:0.064291
+one_step infer time:0.064332
+one_step infer time:0.063952
+one_step infer time:0.064045
+one_step infer time:0.064354
+one_step infer time:0.074294
+one_step infer time:0.075065
+task finished, average infer time:0.0685
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=16--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 11 (68.8%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 16...
+one_step infer time:0.067635
+one_step infer time:0.068132
+one_step infer time:0.064536
+one_step infer time:0.064922
+one_step infer time:0.064837
+one_step infer time:0.064818
+one_step infer time:0.075016
+one_step infer time:0.073364
+one_step infer time:0.074171
+one_step infer time:0.079581
+one_step infer time:0.079161
+one_step infer time:0.056760
+one_step infer time:0.056696
+one_step infer time:0.056686
+one_step infer time:0.058928
+one_step infer time:0.061532
+one_step infer time:0.062965
+one_step infer time:0.073310
+one_step infer time:0.058997
+one_step infer time:0.068549
+one_step infer time:0.063517
+one_step infer time:0.077822
+one_step infer time:0.093668
+one_step infer time:0.066984
+one_step infer time:0.088851
+one_step infer time:0.091596
+one_step infer time:0.085346
+one_step infer time:0.066463
+one_step infer time:0.066186
+one_step infer time:0.076757
+one_step infer time:0.064921
+one_step infer time:0.065116
+one_step infer time:0.065395
+one_step infer time:0.064893
+one_step infer time:0.084245
+one_step infer time:0.066452
+one_step infer time:0.085117
+one_step infer time:0.104141
+task finished, average infer time:0.0713
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=17--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 17
+# successes: 12 (70.6%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 17...
+one_step infer time:0.069662
+one_step infer time:0.064426
+one_step infer time:0.080228
+one_step infer time:0.066383
+one_step infer time:0.065468
+one_step infer time:0.066672
+one_step infer time:0.073169
+one_step infer time:0.089248
+one_step infer time:0.075128
+one_step infer time:0.074512
+one_step infer time:0.062224
+one_step infer time:0.061318
+one_step infer time:0.061803
+one_step infer time:0.061140
+one_step infer time:0.061490
+one_step infer time:0.061198
+one_step infer time:0.060979
+one_step infer time:0.063749
+one_step infer time:0.061457
+one_step infer time:0.072559
+one_step infer time:0.063844
+one_step infer time:0.079075
+one_step infer time:0.073194
+one_step infer time:0.074003
+one_step infer time:0.072075
+one_step infer time:0.074442
+one_step infer time:0.063369
+one_step infer time:0.087019
+one_step infer time:0.061073
+one_step infer time:0.068379
+one_step infer time:0.061049
+one_step infer time:0.072178
+one_step infer time:0.076977
+one_step infer time:0.083321
+one_step infer time:0.085990
+one_step infer time:0.068155
+one_step infer time:0.070225
+one_step infer time:0.078505
+one_step infer time:0.065369
+one_step infer time:0.063773
+one_step infer time:0.064040
+one_step infer time:0.063624
+one_step infer time:0.064662
+one_step infer time:0.065545
+one_step infer time:0.065373
+one_step infer time:0.065696
+one_step infer time:0.065103
+one_step infer time:0.064771
+one_step infer time:0.064932
+one_step infer time:0.064775
+one_step infer time:0.064866
+one_step infer time:0.077907
+one_step infer time:0.066048
+one_step infer time:0.064079
+one_step infer time:0.067397
+task finished, average infer time:0.0688
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=18--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: False
+# episodes completed so far: 18
+# successes: 12 (66.7%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 18...
+one_step infer time:0.070890
+one_step infer time:0.063557
+one_step infer time:0.066501
+one_step infer time:0.066541
+one_step infer time:0.069587
+one_step infer time:0.067044
+one_step infer time:0.075017
+one_step infer time:0.075365
+one_step infer time:0.076437
+one_step infer time:0.073598
+one_step infer time:0.065536
+one_step infer time:0.062985
+one_step infer time:0.074511
+one_step infer time:0.069606
+one_step infer time:0.065024
+one_step infer time:0.081003
+one_step infer time:0.065518
+one_step infer time:0.080831
+one_step infer time:0.060789
+one_step infer time:0.069266
+one_step infer time:0.059637
+one_step infer time:0.059524
+one_step infer time:0.059883
+one_step infer time:0.059501
+one_step infer time:0.063555
+one_step infer time:0.078535
+one_step infer time:0.066505
+one_step infer time:0.072695
+task finished, average infer time:0.0686
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=19--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 19
+# successes: 13 (68.4%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 19...
+one_step infer time:0.067994
+one_step infer time:0.064308
+one_step infer time:0.066299
+one_step infer time:0.065415
+one_step infer time:0.066455
+one_step infer time:0.065613
+one_step infer time:0.074099
+one_step infer time:0.079931
+one_step infer time:0.075230
+one_step infer time:0.073053
+one_step infer time:0.064090
+one_step infer time:0.064148
+one_step infer time:0.065051
+one_step infer time:0.064152
+one_step infer time:0.069086
+one_step infer time:0.063923
+one_step infer time:0.065956
+one_step infer time:0.066139
+one_step infer time:0.065691
+one_step infer time:0.063563
+one_step infer time:0.063504
+one_step infer time:0.064495
+one_step infer time:0.064519
+one_step infer time:0.065387
+one_step infer time:0.093119
+one_step infer time:0.091177
+task finished, average infer time:0.0689
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=20--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 20
+# successes: 14 (70.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 20...
+one_step infer time:0.069864
+one_step infer time:0.063349
+one_step infer time:0.065964
+one_step infer time:0.064478
+one_step infer time:0.067523
+one_step infer time:0.079937
+one_step infer time:0.066134
+one_step infer time:0.075119
+one_step infer time:0.074254
+one_step infer time:0.065907
+one_step infer time:0.064846
+one_step infer time:0.064019
+one_step infer time:0.065404
+one_step infer time:0.064408
+one_step infer time:0.066925
+one_step infer time:0.065655
+one_step infer time:0.064997
+one_step infer time:0.065505
+one_step infer time:0.072835
+one_step infer time:0.070114
+one_step infer time:0.066418
+one_step infer time:0.076086
+one_step infer time:0.075320
+one_step infer time:0.085217
+one_step infer time:0.069826
+one_step infer time:0.084873
+one_step infer time:0.067234
+one_step infer time:0.084761
+one_step infer time:0.068913
+one_step infer time:0.085855
+one_step infer time:0.081369
+one_step infer time:0.073828
+one_step infer time:0.059433
+one_step infer time:0.074365
+one_step infer time:0.073540
+one_step infer time:0.074789
+one_step infer time:0.083380
+one_step infer time:0.085464
+one_step infer time:0.083589
+task finished, average infer time:0.0721
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=21--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Success: True
+# episodes completed so far: 21
+# successes: 15 (71.4%)
+Current task success rate: 0.7
+Current total success rate: 0.7142857142857143
+Using default initial states
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+one_step infer time:0.071440
+one_step infer time:0.065789
+one_step infer time:0.085068
+one_step infer time:0.084278
+one_step infer time:0.074538
+one_step infer time:0.074642
+one_step infer time:0.087885
+one_step infer time:0.067083
+one_step infer time:0.066275
+one_step infer time:0.065281
+one_step infer time:0.065993
+one_step infer time:0.064101
+one_step infer time:0.064763
+one_step infer time:0.075989
+one_step infer time:0.076262
+task finished, average infer time:0.0726
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=22--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 22
+# successes: 16 (72.7%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 2...
+one_step infer time:0.068933
+one_step infer time:0.075535
+one_step infer time:0.066930
+one_step infer time:0.066396
+one_step infer time:0.083683
+one_step infer time:0.074266
+one_step infer time:0.085520
+one_step infer time:0.085082
+one_step infer time:0.065556
+one_step infer time:0.065551
+one_step infer time:0.063961
+one_step infer time:0.063296
+one_step infer time:0.066382
+one_step infer time:0.065861
+one_step infer time:0.064850
+one_step infer time:0.072658
+one_step infer time:0.074798
+task finished, average infer time:0.0711
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=23--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 17 (73.9%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 3...
+one_step infer time:0.069544
+one_step infer time:0.064519
+one_step infer time:0.071253
+one_step infer time:0.064424
+one_step infer time:0.084198
+one_step infer time:0.074830
+one_step infer time:0.083798
+one_step infer time:0.084155
+one_step infer time:0.066167
+one_step infer time:0.065598
+one_step infer time:0.064453
+one_step infer time:0.064988
+one_step infer time:0.071271
+one_step infer time:0.063363
+one_step infer time:0.079345
+one_step infer time:0.079103
+one_step infer time:0.065556
+one_step infer time:0.073031
+task finished, average infer time:0.0716
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=24--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 24
+# successes: 18 (75.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 4...
+one_step infer time:0.068549
+one_step infer time:0.061862
+one_step infer time:0.089252
+one_step infer time:0.080990
+one_step infer time:0.074905
+one_step infer time:0.103508
+one_step infer time:0.081386
+one_step infer time:0.104399
+one_step infer time:0.062434
+one_step infer time:0.066139
+one_step infer time:0.069021
+one_step infer time:0.064121
+one_step infer time:0.069619
+one_step infer time:0.079680
+one_step infer time:0.065508
+one_step infer time:0.066976
+one_step infer time:0.074188
+one_step infer time:0.073766
+task finished, average infer time:0.0754
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=25--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 19 (76.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 5...
+one_step infer time:0.069493
+one_step infer time:0.062565
+one_step infer time:0.083788
+one_step infer time:0.083646
+one_step infer time:0.085221
+one_step infer time:0.082628
+one_step infer time:0.086472
+one_step infer time:0.086708
+one_step infer time:0.064193
+one_step infer time:0.065109
+one_step infer time:0.064368
+one_step infer time:0.075978
+one_step infer time:0.066795
+one_step infer time:0.073828
+one_step infer time:0.073677
+task finished, average infer time:0.0750
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=26--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 20 (76.9%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 6...
+one_step infer time:0.072158
+one_step infer time:0.063085
+one_step infer time:0.083843
+one_step infer time:0.085200
+one_step infer time:0.074086
+one_step infer time:0.083778
+one_step infer time:0.085457
+one_step infer time:0.065658
+one_step infer time:0.069181
+one_step infer time:0.065025
+one_step infer time:0.066556
+one_step infer time:0.068422
+one_step infer time:0.068440
+one_step infer time:0.075170
+one_step infer time:0.076227
+task finished, average infer time:0.0735
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=27--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 27
+# successes: 21 (77.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 7...
+one_step infer time:0.070005
+one_step infer time:0.063961
+one_step infer time:0.084964
+one_step infer time:0.086076
+one_step infer time:0.083432
+one_step infer time:0.087019
+one_step infer time:0.084247
+one_step infer time:0.065314
+one_step infer time:0.080038
+one_step infer time:0.059685
+one_step infer time:0.064657
+one_step infer time:0.065718
+one_step infer time:0.065766
+one_step infer time:0.072572
+one_step infer time:0.074146
+task finished, average infer time:0.0738
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=28--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 22 (78.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 8...
+one_step infer time:0.069166
+one_step infer time:0.063312
+one_step infer time:0.084387
+one_step infer time:0.087084
+one_step infer time:0.088555
+one_step infer time:0.109127
+one_step infer time:0.084880
+one_step infer time:0.086327
+one_step infer time:0.064370
+one_step infer time:0.063565
+one_step infer time:0.064288
+one_step infer time:0.065849
+one_step infer time:0.063382
+one_step infer time:0.063350
+one_step infer time:0.063523
+one_step infer time:0.064990
+one_step infer time:0.065123
+one_step infer time:0.064508
+one_step infer time:0.083545
+one_step infer time:0.074092
+task finished, average infer time:0.0737
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=29--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 29
+# successes: 23 (79.3%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 9...
+one_step infer time:0.069147
+one_step infer time:0.062672
+one_step infer time:0.071848
+one_step infer time:0.066917
+one_step infer time:0.084023
+one_step infer time:0.083800
+one_step infer time:0.087146
+one_step infer time:0.085874
+one_step infer time:0.065829
+one_step infer time:0.066315
+one_step infer time:0.065017
+one_step infer time:0.063995
+one_step infer time:0.065985
+one_step infer time:0.066090
+one_step infer time:0.069125
+one_step infer time:0.085338
+one_step infer time:0.074233
+task finished, average infer time:0.0726
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=30--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 24 (80.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 10...
+one_step infer time:0.072070
+one_step infer time:0.064995
+one_step infer time:0.074445
+one_step infer time:0.067627
+one_step infer time:0.083803
+one_step infer time:0.073015
+one_step infer time:0.087456
+one_step infer time:0.084920
+one_step infer time:0.087370
+one_step infer time:0.069438
+one_step infer time:0.065266
+one_step infer time:0.064510
+one_step infer time:0.067168
+one_step infer time:0.073307
+one_step infer time:0.077015
+task finished, average infer time:0.0742
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=31--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 31
+# successes: 25 (80.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 11...
+one_step infer time:0.070767
+one_step infer time:0.077010
+one_step infer time:0.073756
+one_step infer time:0.066211
+one_step infer time:0.085161
+one_step infer time:0.073717
+one_step infer time:0.084719
+one_step infer time:0.084713
+one_step infer time:0.065057
+one_step infer time:0.064060
+one_step infer time:0.064839
+one_step infer time:0.065961
+one_step infer time:0.064220
+one_step infer time:0.063696
+one_step infer time:0.069933
+one_step infer time:0.066155
+one_step infer time:0.090201
+one_step infer time:0.072545
+task finished, average infer time:0.0724
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=32--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 26 (81.2%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 12...
+one_step infer time:0.070196
+one_step infer time:0.063061
+one_step infer time:0.086519
+one_step infer time:0.085903
+one_step infer time:0.076387
+one_step infer time:0.091263
+one_step infer time:0.087246
+one_step infer time:0.085017
+one_step infer time:0.066322
+one_step infer time:0.064640
+one_step infer time:0.073973
+one_step infer time:0.065595
+one_step infer time:0.066855
+one_step infer time:0.064066
+one_step infer time:0.074888
+one_step infer time:0.077340
+task finished, average infer time:0.0750
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=33--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 27 (81.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 13...
+one_step infer time:0.069139
+one_step infer time:0.064082
+one_step infer time:0.089245
+one_step infer time:0.089447
+one_step infer time:0.076706
+one_step infer time:0.084312
+one_step infer time:0.085130
+one_step infer time:0.105175
+one_step infer time:0.067132
+one_step infer time:0.059044
+one_step infer time:0.064763
+one_step infer time:0.064784
+one_step infer time:0.065190
+one_step infer time:0.065452
+one_step infer time:0.067824
+one_step infer time:0.067343
+one_step infer time:0.091757
+one_step infer time:0.083687
+task finished, average infer time:0.0756
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=34--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 28 (82.4%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 14...
+one_step infer time:0.067897
+one_step infer time:0.062278
+one_step infer time:0.072083
+one_step infer time:0.065374
+one_step infer time:0.086173
+one_step infer time:0.083787
+one_step infer time:0.093639
+one_step infer time:0.085812
+one_step infer time:0.069538
+one_step infer time:0.088027
+one_step infer time:0.073813
+one_step infer time:0.066720
+one_step infer time:0.067495
+one_step infer time:0.065158
+one_step infer time:0.065696
+one_step infer time:0.064937
+one_step infer time:0.065704
+one_step infer time:0.064862
+one_step infer time:0.065416
+one_step infer time:0.090126
+one_step infer time:0.073152
+task finished, average infer time:0.0732
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=35--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 29 (82.9%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 15...
+one_step infer time:0.068056
+one_step infer time:0.063065
+one_step infer time:0.074052
+one_step infer time:0.066412
+one_step infer time:0.085804
+one_step infer time:0.084138
+one_step infer time:0.088120
+one_step infer time:0.103687
+one_step infer time:0.060420
+one_step infer time:0.064405
+one_step infer time:0.080048
+one_step infer time:0.059394
+one_step infer time:0.077836
+one_step infer time:0.066121
+one_step infer time:0.069549
+one_step infer time:0.075209
+one_step infer time:0.074341
+task finished, average infer time:0.0742
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=36--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 30 (83.3%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 16...
+one_step infer time:0.069530
+one_step infer time:0.061714
+one_step infer time:0.065550
+one_step infer time:0.067019
+one_step infer time:0.083817
+one_step infer time:0.085477
+one_step infer time:0.084550
+one_step infer time:0.083007
+one_step infer time:0.065116
+one_step infer time:0.064987
+one_step infer time:0.064458
+one_step infer time:0.064618
+one_step infer time:0.065514
+one_step infer time:0.065599
+one_step infer time:0.072403
+one_step infer time:0.065003
+one_step infer time:0.065029
+one_step infer time:0.074256
+one_step infer time:0.072983
+task finished, average infer time:0.0706
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=37--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 31 (83.8%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 17...
+one_step infer time:0.068805
+one_step infer time:0.065664
+one_step infer time:0.086370
+one_step infer time:0.084218
+one_step infer time:0.083384
+one_step infer time:0.084265
+one_step infer time:0.091626
+one_step infer time:0.085079
+one_step infer time:0.064711
+one_step infer time:0.067419
+one_step infer time:0.066221
+one_step infer time:0.066636
+one_step infer time:0.073844
+one_step infer time:0.073860
+task finished, average infer time:0.0759
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=38--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 32 (84.2%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 18...
+one_step infer time:0.069445
+one_step infer time:0.078813
+one_step infer time:0.085593
+one_step infer time:0.087121
+one_step infer time:0.076114
+one_step infer time:0.084963
+one_step infer time:0.083297
+one_step infer time:0.071170
+one_step infer time:0.064789
+one_step infer time:0.080256
+one_step infer time:0.062621
+one_step infer time:0.065998
+one_step infer time:0.065705
+one_step infer time:0.065193
+one_step infer time:0.066603
+one_step infer time:0.073567
+task finished, average infer time:0.0738
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=39--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 33 (84.6%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 19...
+one_step infer time:0.067626
+one_step infer time:0.063195
+one_step infer time:0.084692
+one_step infer time:0.084416
+one_step infer time:0.076716
+one_step infer time:0.085144
+one_step infer time:0.085338
+one_step infer time:0.083043
+one_step infer time:0.064109
+one_step infer time:0.065371
+one_step infer time:0.065033
+one_step infer time:0.064565
+one_step infer time:0.073999
+one_step infer time:0.073480
+task finished, average infer time:0.0741
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=40--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 40
+# successes: 34 (85.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 20...
+one_step infer time:0.067792
+one_step infer time:0.063784
+one_step infer time:0.084553
+one_step infer time:0.085384
+one_step infer time:0.084965
+one_step infer time:0.084203
+one_step infer time:0.091115
+one_step infer time:0.083869
+one_step infer time:0.073170
+one_step infer time:0.064870
+one_step infer time:0.065375
+one_step infer time:0.064149
+one_step infer time:0.074591
+one_step infer time:0.076373
+task finished, average infer time:0.0760
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=41--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Success: True
+# episodes completed so far: 41
+# successes: 35 (85.4%)
+Current task success rate: 1.0
+Current total success rate: 0.8536585365853658
+Using default initial states
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+one_step infer time:0.068338
+one_step infer time:0.062338
+one_step infer time:0.083064
+one_step infer time:0.083915
+one_step infer time:0.072979
+one_step infer time:0.075277
+one_step infer time:0.073387
+one_step infer time:0.083248
+one_step infer time:0.064041
+one_step infer time:0.064393
+one_step infer time:0.065112
+one_step infer time:0.073912
+task finished, average infer time:0.0725
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=42--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 36 (85.7%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 2...
+one_step infer time:0.068439
+one_step infer time:0.066793
+one_step infer time:0.068594
+one_step infer time:0.065874
+one_step infer time:0.064785
+one_step infer time:0.075074
+one_step infer time:0.084527
+one_step infer time:0.086935
+one_step infer time:0.073048
+one_step infer time:0.072829
+one_step infer time:0.066054
+one_step infer time:0.065615
+one_step infer time:0.074371
+task finished, average infer time:0.0718
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=43--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 43
+# successes: 37 (86.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 3...
+one_step infer time:0.066573
+one_step infer time:0.062946
+one_step infer time:0.066468
+one_step infer time:0.065571
+one_step infer time:0.083877
+one_step infer time:0.085558
+one_step infer time:0.085647
+one_step infer time:0.095572
+one_step infer time:0.066908
+one_step infer time:0.083831
+one_step infer time:0.065968
+one_step infer time:0.066277
+one_step infer time:0.066157
+one_step infer time:0.066242
+one_step infer time:0.066086
+one_step infer time:0.064977
+one_step infer time:0.066205
+one_step infer time:0.065391
+one_step infer time:0.065063
+one_step infer time:0.065556
+one_step infer time:0.065966
+one_step infer time:0.066064
+one_step infer time:0.065401
+one_step infer time:0.065173
+one_step infer time:0.066445
+one_step infer time:0.084679
+one_step infer time:0.084222
+one_step infer time:0.086004
+one_step infer time:0.065552
+one_step infer time:0.086067
+one_step infer time:0.064902
+one_step infer time:0.087930
+one_step infer time:0.065950
+one_step infer time:0.084155
+one_step infer time:0.065961
+one_step infer time:0.084549
+one_step infer time:0.067037
+one_step infer time:0.083972
+one_step infer time:0.065185
+one_step infer time:0.086897
+one_step infer time:0.084632
+one_step infer time:0.064725
+one_step infer time:0.082665
+one_step infer time:0.063476
+one_step infer time:0.082741
+one_step infer time:0.064921
+one_step infer time:0.083413
+one_step infer time:0.067480
+one_step infer time:0.082101
+task finished, average infer time:0.0732
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=44--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: False
+# episodes completed so far: 44
+# successes: 37 (84.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 4...
+one_step infer time:0.066612
+one_step infer time:0.062631
+one_step infer time:0.083835
+one_step infer time:0.083684
+one_step infer time:0.073968
+one_step infer time:0.072495
+one_step infer time:0.074001
+one_step infer time:0.083362
+one_step infer time:0.071163
+one_step infer time:0.070929
+one_step infer time:0.064697
+one_step infer time:0.066583
+one_step infer time:0.073924
+task finished, average infer time:0.0729
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=45--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 38 (84.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 5...
+one_step infer time:0.068389
+one_step infer time:0.062626
+one_step infer time:0.066235
+one_step infer time:0.066375
+one_step infer time:0.065350
+one_step infer time:0.074331
+one_step infer time:0.085221
+one_step infer time:0.084917
+one_step infer time:0.066679
+one_step infer time:0.067230
+one_step infer time:0.066520
+one_step infer time:0.065585
+one_step infer time:0.073004
+one_step infer time:0.082041
+task finished, average infer time:0.0710
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=46--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 46
+# successes: 39 (84.8%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 6...
+one_step infer time:0.066298
+one_step infer time:0.061279
+one_step infer time:0.066995
+one_step infer time:0.064190
+one_step infer time:0.064667
+one_step infer time:0.207919
+one_step infer time:0.085562
+one_step infer time:0.085232
+one_step infer time:0.079601
+one_step infer time:0.069317
+one_step infer time:0.065623
+one_step infer time:0.066231
+one_step infer time:0.064626
+one_step infer time:0.065174
+one_step infer time:0.075064
+task finished, average infer time:0.0792
+Saved rollout MP4 at path ./rollouts/2025_07_15/2025_07_15-14_35_49--openvla_oft--episode=47--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Success: True
+# episodes completed so far: 47
+# successes: 40 (85.1%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 7...
+one_step infer time:0.068330
+one_step infer time:0.061232
+one_step infer time:0.064340
