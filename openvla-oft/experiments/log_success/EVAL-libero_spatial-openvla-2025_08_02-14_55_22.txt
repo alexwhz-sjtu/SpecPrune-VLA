@@ -1,0 +1,2854 @@
+Task suite: libero_spatial
+token_prune: True
+layer_prune: False
+action_adapter: False
+Dynamic Prune Ratio = 0.8
+STATIC_PRUNE_RATIO = 0.5
+ATTN_TOPK = 10
+ATTN_TOPK_WRIST = 7
+ATTN_TOPK_PRECISE = 10
+ATTN_TOPK_PRECISE_WRIST = 7
+PRIMARY_TOPK = 230
+PRIMARY_TOPK_PRECISE = 200
+WRIST_TOPK = 230
+WRIST_TOPK_PRECISE = 220
+VELOCITY_THRES = 0.4
+ROT_THRES= 0.2
+XY_THRES = 0.1
+Z_THRES = 0.1
+skiplayer = 4
+thres = 0.98
+Using default initial states
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.1622
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0703
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0773
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0683
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0696
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0681
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0709
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0723
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0754
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0890
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0812
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0782
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0748
+Success: True
+# episodes completed so far: 14
+# successes: 14 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0858
+Success: True
+# episodes completed so far: 15
+# successes: 15 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0707
+Success: True
+# episodes completed so far: 16
+# successes: 16 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0791
+Success: True
+# episodes completed so far: 17
+# successes: 17 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0736
+Success: True
+# episodes completed so far: 18
+# successes: 18 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0733
+Success: True
+# episodes completed so far: 19
+# successes: 19 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0753
+Success: True
+# episodes completed so far: 20
+# successes: 20 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0792
+Success: True
+# episodes completed so far: 21
+# successes: 21 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0803
+Success: True
+# episodes completed so far: 22
+# successes: 22 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0690
+Success: True
+# episodes completed so far: 23
+# successes: 23 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0785
+Success: True
+# episodes completed so far: 24
+# successes: 24 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0763
+Success: True
+# episodes completed so far: 25
+# successes: 25 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0801
+Success: True
+# episodes completed so far: 26
+# successes: 26 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0741
+Success: True
+# episodes completed so far: 27
+# successes: 27 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0842
+Success: True
+# episodes completed so far: 28
+# successes: 28 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0746
+Success: True
+# episodes completed so far: 29
+# successes: 29 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0795
+Success: True
+# episodes completed so far: 30
+# successes: 30 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0763
+Success: True
+# episodes completed so far: 31
+# successes: 31 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0805
+Success: True
+# episodes completed so far: 32
+# successes: 32 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0774
+Success: True
+# episodes completed so far: 33
+# successes: 33 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0757
+Success: True
+# episodes completed so far: 34
+# successes: 34 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0750
+Success: True
+# episodes completed so far: 35
+# successes: 35 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0815
+Success: True
+# episodes completed so far: 36
+# successes: 36 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0696
+Success: True
+# episodes completed so far: 37
+# successes: 37 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0705
+Success: True
+# episodes completed so far: 38
+# successes: 38 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0690
+Success: True
+# episodes completed so far: 39
+# successes: 39 (100.0%)
+
+Task: pick up the black bowl between the plate and the ramekin and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0721
+Success: True
+# episodes completed so far: 40
+# successes: 40 (100.0%)
+Current task success rate: 1.0
+Current total success rate: 1.0
+Using default initial states
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0746
+Success: True
+# episodes completed so far: 41
+# successes: 41 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0662
+Success: True
+# episodes completed so far: 42
+# successes: 42 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0796
+Success: True
+# episodes completed so far: 43
+# successes: 43 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0719
+Success: True
+# episodes completed so far: 44
+# successes: 44 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0814
+Success: True
+# episodes completed so far: 45
+# successes: 45 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0736
+Success: True
+# episodes completed so far: 46
+# successes: 46 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0677
+Success: True
+# episodes completed so far: 47
+# successes: 47 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0712
+Success: True
+# episodes completed so far: 48
+# successes: 48 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0714
+Success: True
+# episodes completed so far: 49
+# successes: 49 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0699
+Success: True
+# episodes completed so far: 50
+# successes: 50 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0705
+Success: True
+# episodes completed so far: 51
+# successes: 51 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0758
+Success: True
+# episodes completed so far: 52
+# successes: 52 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0734
+Success: True
+# episodes completed so far: 53
+# successes: 53 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0795
+Success: True
+# episodes completed so far: 54
+# successes: 54 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0862
+Success: True
+# episodes completed so far: 55
+# successes: 55 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0709
+Success: True
+# episodes completed so far: 56
+# successes: 56 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0762
+Success: True
+# episodes completed so far: 57
+# successes: 57 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0679
+Success: True
+# episodes completed so far: 58
+# successes: 58 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0691
+Success: True
+# episodes completed so far: 59
+# successes: 59 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0773
+Success: True
+# episodes completed so far: 60
+# successes: 60 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0698
+Success: True
+# episodes completed so far: 61
+# successes: 61 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0695
+Success: True
+# episodes completed so far: 62
+# successes: 62 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0730
+Success: True
+# episodes completed so far: 63
+# successes: 63 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 64
+# successes: 64 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0706
+Success: True
+# episodes completed so far: 65
+# successes: 65 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0693
+Success: True
+# episodes completed so far: 66
+# successes: 66 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0747
+Success: True
+# episodes completed so far: 67
+# successes: 67 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0750
+Success: True
+# episodes completed so far: 68
+# successes: 68 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0695
+Success: True
+# episodes completed so far: 69
+# successes: 69 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0747
+Success: True
+# episodes completed so far: 70
+# successes: 70 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0740
+Success: True
+# episodes completed so far: 71
+# successes: 71 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0730
+Success: True
+# episodes completed so far: 72
+# successes: 72 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0730
+Success: True
+# episodes completed so far: 73
+# successes: 73 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0737
+Success: True
+# episodes completed so far: 74
+# successes: 74 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0672
+Success: True
+# episodes completed so far: 75
+# successes: 75 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0745
+Success: True
+# episodes completed so far: 76
+# successes: 76 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0676
+Success: True
+# episodes completed so far: 77
+# successes: 77 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0781
+Success: True
+# episodes completed so far: 78
+# successes: 78 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0730
+Success: True
+# episodes completed so far: 79
+# successes: 79 (100.0%)
+
+Task: pick up the black bowl next to the ramekin and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0825
+Success: True
+# episodes completed so far: 80
+# successes: 80 (100.0%)
+Current task success rate: 1.0
+Current total success rate: 1.0
+Using default initial states
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0763
+Success: True
+# episodes completed so far: 81
+# successes: 81 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0687
+Success: True
+# episodes completed so far: 82
+# successes: 82 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0739
+Success: True
+# episodes completed so far: 83
+# successes: 83 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0752
+Success: True
+# episodes completed so far: 84
+# successes: 84 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0814
+Success: True
+# episodes completed so far: 85
+# successes: 85 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0806
+Success: True
+# episodes completed so far: 86
+# successes: 86 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0703
+Success: True
+# episodes completed so far: 87
+# successes: 87 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0770
+Success: True
+# episodes completed so far: 88
+# successes: 88 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0797
+Success: True
+# episodes completed so far: 89
+# successes: 89 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0741
+Success: True
+# episodes completed so far: 90
+# successes: 90 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0785
+Success: True
+# episodes completed so far: 91
+# successes: 91 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0708
+Success: True
+# episodes completed so far: 92
+# successes: 92 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0691
+Success: True
+# episodes completed so far: 93
+# successes: 93 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0677
+Success: True
+# episodes completed so far: 94
+# successes: 94 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0710
+Success: True
+# episodes completed so far: 95
+# successes: 95 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0674
+Success: True
+# episodes completed so far: 96
+# successes: 96 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0706
+Success: True
+# episodes completed so far: 97
+# successes: 97 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0679
+Success: True
+# episodes completed so far: 98
+# successes: 98 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0669
+Success: True
+# episodes completed so far: 99
+# successes: 99 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0924
+Success: True
+# episodes completed so far: 100
+# successes: 100 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0734
+Success: True
+# episodes completed so far: 101
+# successes: 101 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0755
+Success: True
+# episodes completed so far: 102
+# successes: 102 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0783
+Success: True
+# episodes completed so far: 103
+# successes: 103 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0715
+Success: True
+# episodes completed so far: 104
+# successes: 104 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0769
+Success: True
+# episodes completed so far: 105
+# successes: 105 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0736
+Success: True
+# episodes completed so far: 106
+# successes: 106 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0757
+Success: True
+# episodes completed so far: 107
+# successes: 107 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0726
+Success: True
+# episodes completed so far: 108
+# successes: 108 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0795
+Success: True
+# episodes completed so far: 109
+# successes: 109 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0786
+Success: True
+# episodes completed so far: 110
+# successes: 110 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0692
+Success: True
+# episodes completed so far: 111
+# successes: 111 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0685
+Success: True
+# episodes completed so far: 112
+# successes: 112 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0795
+Success: True
+# episodes completed so far: 113
+# successes: 113 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0730
+Success: True
+# episodes completed so far: 114
+# successes: 114 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0771
+Success: True
+# episodes completed so far: 115
+# successes: 115 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0697
+Success: True
+# episodes completed so far: 116
+# successes: 116 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0678
+Success: True
+# episodes completed so far: 117
+# successes: 117 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0698
+Success: True
+# episodes completed so far: 118
+# successes: 118 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0779
+Success: True
+# episodes completed so far: 119
+# successes: 119 (100.0%)
+
+Task: pick up the black bowl from table center and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0729
+Success: True
+# episodes completed so far: 120
+# successes: 120 (100.0%)
+Current task success rate: 1.0
+Current total success rate: 1.0
+Using default initial states
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0667
+Success: True
+# episodes completed so far: 121
+# successes: 121 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0743
+Success: True
+# episodes completed so far: 122
+# successes: 122 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0785
+Success: True
+# episodes completed so far: 123
+# successes: 123 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0772
+Success: True
+# episodes completed so far: 124
+# successes: 124 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0708
+Success: True
+# episodes completed so far: 125
+# successes: 125 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0759
+Success: True
+# episodes completed so far: 126
+# successes: 126 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0689
+Success: True
+# episodes completed so far: 127
+# successes: 127 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0772
+Success: True
+# episodes completed so far: 128
+# successes: 128 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0684
+Success: True
+# episodes completed so far: 129
+# successes: 129 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0781
+Success: True
+# episodes completed so far: 130
+# successes: 130 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0683
+Success: True
+# episodes completed so far: 131
+# successes: 131 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0692
+Success: True
+# episodes completed so far: 132
+# successes: 132 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0690
+Success: True
+# episodes completed so far: 133
+# successes: 133 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0776
+Success: True
+# episodes completed so far: 134
+# successes: 134 (100.0%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0673
+Success: False
+# episodes completed so far: 135
+# successes: 134 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0766
+Success: True
+# episodes completed so far: 136
+# successes: 135 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0688
+Success: True
+# episodes completed so far: 137
+# successes: 136 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0729
+Success: True
+# episodes completed so far: 138
+# successes: 137 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0670
+Success: True
+# episodes completed so far: 139
+# successes: 138 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0747
+Success: True
+# episodes completed so far: 140
+# successes: 139 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0686
+Success: True
+# episodes completed so far: 141
+# successes: 140 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0677
+Success: True
+# episodes completed so far: 142
+# successes: 141 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0737
+Success: True
+# episodes completed so far: 143
+# successes: 142 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0815
+Success: True
+# episodes completed so far: 144
+# successes: 143 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0752
+Success: True
+# episodes completed so far: 145
+# successes: 144 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0704
+Success: True
+# episodes completed so far: 146
+# successes: 145 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0698
+Success: True
+# episodes completed so far: 147
+# successes: 146 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0736
+Success: True
+# episodes completed so far: 148
+# successes: 147 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0703
+Success: True
+# episodes completed so far: 149
+# successes: 148 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0772
+Success: True
+# episodes completed so far: 150
+# successes: 149 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0820
+Success: True
+# episodes completed so far: 151
+# successes: 150 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0790
+Success: True
+# episodes completed so far: 152
+# successes: 151 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0698
+Success: True
+# episodes completed so far: 153
+# successes: 152 (99.3%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0667
+Success: True
+# episodes completed so far: 154
+# successes: 153 (99.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0708
+Success: True
+# episodes completed so far: 155
+# successes: 154 (99.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0713
+Success: True
+# episodes completed so far: 156
+# successes: 155 (99.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0738
+Success: True
+# episodes completed so far: 157
+# successes: 156 (99.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0830
+Success: True
+# episodes completed so far: 158
+# successes: 157 (99.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0806
+Success: True
+# episodes completed so far: 159
+# successes: 158 (99.4%)
+
+Task: pick up the black bowl on the cookie box and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0712
+Success: True
+# episodes completed so far: 160
+# successes: 159 (99.4%)
+Current task success rate: 0.975
+Current total success rate: 0.99375
+Using default initial states
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0713
+Success: True
+# episodes completed so far: 161
+# successes: 160 (99.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0742
+Success: False
+# episodes completed so far: 162
+# successes: 160 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0774
+Success: True
+# episodes completed so far: 163
+# successes: 161 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0759
+Success: True
+# episodes completed so far: 164
+# successes: 162 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0755
+Success: True
+# episodes completed so far: 165
+# successes: 163 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0795
+Success: True
+# episodes completed so far: 166
+# successes: 164 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0712
+Success: True
+# episodes completed so far: 167
+# successes: 165 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0731
+Success: True
+# episodes completed so far: 168
+# successes: 166 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0733
+Success: True
+# episodes completed so far: 169
+# successes: 167 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0710
+Success: True
+# episodes completed so far: 170
+# successes: 168 (98.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0746
+Success: False
+# episodes completed so far: 171
+# successes: 168 (98.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0718
+Success: True
+# episodes completed so far: 172
+# successes: 169 (98.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0718
+Success: True
+# episodes completed so far: 173
+# successes: 170 (98.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0793
+Success: True
+# episodes completed so far: 174
+# successes: 171 (98.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0720
+Success: False
+# episodes completed so far: 175
+# successes: 171 (97.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0749
+Success: True
+# episodes completed so far: 176
+# successes: 172 (97.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0748
+Success: True
+# episodes completed so far: 177
+# successes: 173 (97.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0724
+Success: True
+# episodes completed so far: 178
+# successes: 174 (97.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0746
+Success: False
+# episodes completed so far: 179
+# successes: 174 (97.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0753
+Success: True
+# episodes completed so far: 180
+# successes: 175 (97.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0689
+Success: False
+# episodes completed so far: 181
+# successes: 175 (96.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0749
+Success: False
+# episodes completed so far: 182
+# successes: 175 (96.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0820
+Success: True
+# episodes completed so far: 183
+# successes: 176 (96.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0748
+Success: True
+# episodes completed so far: 184
+# successes: 177 (96.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0719
+Success: True
+# episodes completed so far: 185
+# successes: 178 (96.2%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0742
+Success: False
+# episodes completed so far: 186
+# successes: 178 (95.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0785
+Success: True
+# episodes completed so far: 187
+# successes: 179 (95.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0728
+Success: True
+# episodes completed so far: 188
+# successes: 180 (95.7%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0728
+Success: True
+# episodes completed so far: 189
+# successes: 181 (95.8%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0722
+Success: False
+# episodes completed so far: 190
+# successes: 181 (95.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0712
+Success: True
+# episodes completed so far: 191
+# successes: 182 (95.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0904
+Success: True
+# episodes completed so far: 192
+# successes: 183 (95.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0775
+Success: True
+# episodes completed so far: 193
+# successes: 184 (95.3%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0718
+Success: True
+# episodes completed so far: 194
+# successes: 185 (95.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0763
+Success: True
+# episodes completed so far: 195
+# successes: 186 (95.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0707
+Success: True
+# episodes completed so far: 196
+# successes: 187 (95.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0693
+Success: True
+# episodes completed so far: 197
+# successes: 188 (95.4%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0748
+Success: True
+# episodes completed so far: 198
+# successes: 189 (95.5%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0692
+Success: False
+# episodes completed so far: 199
+# successes: 189 (95.0%)
+
+Task: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0763
+Success: True
+# episodes completed so far: 200
+# successes: 190 (95.0%)
+Current task success rate: 0.775
+Current total success rate: 0.95
+Using default initial states
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0720
+Success: True
+# episodes completed so far: 201
+# successes: 191 (95.0%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0750
+Success: True
+# episodes completed so far: 202
+# successes: 192 (95.0%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0689
+Success: True
+# episodes completed so far: 203
+# successes: 193 (95.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0728
+Success: True
+# episodes completed so far: 204
+# successes: 194 (95.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0723
+Success: True
+# episodes completed so far: 205
+# successes: 195 (95.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0726
+Success: True
+# episodes completed so far: 206
+# successes: 196 (95.1%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0844
+Success: True
+# episodes completed so far: 207
+# successes: 197 (95.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0679
+Success: True
+# episodes completed so far: 208
+# successes: 198 (95.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0731
+Success: True
+# episodes completed so far: 209
+# successes: 199 (95.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0697
+Success: True
+# episodes completed so far: 210
+# successes: 200 (95.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0760
+Success: True
+# episodes completed so far: 211
+# successes: 201 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0704
+Success: True
+# episodes completed so far: 212
+# successes: 202 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0709
+Success: True
+# episodes completed so far: 213
+# successes: 203 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0781
+Success: True
+# episodes completed so far: 214
+# successes: 204 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0749
+Success: True
+# episodes completed so far: 215
+# successes: 205 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0697
+Success: True
+# episodes completed so far: 216
+# successes: 206 (95.4%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0670
+Success: True
+# episodes completed so far: 217
+# successes: 207 (95.4%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0715
+Success: True
+# episodes completed so far: 218
+# successes: 208 (95.4%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0728
+Success: True
+# episodes completed so far: 219
+# successes: 209 (95.4%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0795
+Success: True
+# episodes completed so far: 220
+# successes: 210 (95.5%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0801
+Success: True
+# episodes completed so far: 221
+# successes: 211 (95.5%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0689
+Success: True
+# episodes completed so far: 222
+# successes: 212 (95.5%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0749
+Success: True
+# episodes completed so far: 223
+# successes: 213 (95.5%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0709
+Success: True
+# episodes completed so far: 224
+# successes: 214 (95.5%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0812
+Success: True
+# episodes completed so far: 225
+# successes: 215 (95.6%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0679
+Success: True
+# episodes completed so far: 226
+# successes: 216 (95.6%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0732
+Success: True
+# episodes completed so far: 227
+# successes: 217 (95.6%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0692
+Success: True
+# episodes completed so far: 228
+# successes: 218 (95.6%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0741
+Success: False
+# episodes completed so far: 229
+# successes: 218 (95.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0695
+Success: True
+# episodes completed so far: 230
+# successes: 219 (95.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0697
+Success: True
+# episodes completed so far: 231
+# successes: 220 (95.2%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0712
+Success: True
+# episodes completed so far: 232
+# successes: 221 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0685
+Success: True
+# episodes completed so far: 233
+# successes: 222 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0707
+Success: True
+# episodes completed so far: 234
+# successes: 223 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0733
+Success: True
+# episodes completed so far: 235
+# successes: 224 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0687
+Success: True
+# episodes completed so far: 236
+# successes: 225 (95.3%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0768
+Success: True
+# episodes completed so far: 237
+# successes: 226 (95.4%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0801
+Success: True
+# episodes completed so far: 238
+# successes: 227 (95.4%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0710
+Success: True
+# episodes completed so far: 239
+# successes: 228 (95.4%)
+
+Task: pick up the black bowl on the ramekin and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0762
+Success: True
+# episodes completed so far: 240
+# successes: 229 (95.4%)
+Current task success rate: 0.975
+Current total success rate: 0.9541666666666667
+Using default initial states
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0670
+Success: True
+# episodes completed so far: 241
+# successes: 230 (95.4%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0697
+Success: True
+# episodes completed so far: 242
+# successes: 231 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0746
+Success: True
+# episodes completed so far: 243
+# successes: 232 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0746
+Success: True
+# episodes completed so far: 244
+# successes: 233 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0720
+Success: True
+# episodes completed so far: 245
+# successes: 234 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0741
+Success: True
+# episodes completed so far: 246
+# successes: 235 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0765
+Success: True
+# episodes completed so far: 247
+# successes: 236 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0677
+Success: True
+# episodes completed so far: 248
+# successes: 237 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0741
+Success: True
+# episodes completed so far: 249
+# successes: 238 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0659
+Success: True
+# episodes completed so far: 250
+# successes: 239 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0701
+Success: True
+# episodes completed so far: 251
+# successes: 240 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0785
+Success: True
+# episodes completed so far: 252
+# successes: 241 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0729
+Success: True
+# episodes completed so far: 253
+# successes: 242 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0757
+Success: True
+# episodes completed so far: 254
+# successes: 243 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0804
+Success: True
+# episodes completed so far: 255
+# successes: 244 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0718
+Success: True
+# episodes completed so far: 256
+# successes: 245 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0731
+Success: True
+# episodes completed so far: 257
+# successes: 246 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0687
+Success: True
+# episodes completed so far: 258
+# successes: 247 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0804
+Success: True
+# episodes completed so far: 259
+# successes: 248 (95.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0661
+Success: True
+# episodes completed so far: 260
+# successes: 249 (95.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0683
+Success: True
+# episodes completed so far: 261
+# successes: 250 (95.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0736
+Success: True
+# episodes completed so far: 262
+# successes: 251 (95.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0701
+Success: True
+# episodes completed so far: 263
+# successes: 252 (95.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0771
+Success: True
+# episodes completed so far: 264
+# successes: 253 (95.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0810
+Success: True
+# episodes completed so far: 265
+# successes: 254 (95.8%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0721
+Success: False
+# episodes completed so far: 266
+# successes: 254 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0766
+Success: True
+# episodes completed so far: 267
+# successes: 255 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0713
+Success: True
+# episodes completed so far: 268
+# successes: 256 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0708
+Success: True
+# episodes completed so far: 269
+# successes: 257 (95.5%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0715
+Success: True
+# episodes completed so far: 270
+# successes: 258 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0687
+Success: True
+# episodes completed so far: 271
+# successes: 259 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0678
+Success: True
+# episodes completed so far: 272
+# successes: 260 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0698
+Success: True
+# episodes completed so far: 273
+# successes: 261 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0699
+Success: True
+# episodes completed so far: 274
+# successes: 262 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0678
+Success: True
+# episodes completed so far: 275
+# successes: 263 (95.6%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0748
+Success: True
+# episodes completed so far: 276
+# successes: 264 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0668
+Success: True
+# episodes completed so far: 277
+# successes: 265 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0749
+Success: True
+# episodes completed so far: 278
+# successes: 266 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0669
+Success: True
+# episodes completed so far: 279
+# successes: 267 (95.7%)
+
+Task: pick up the black bowl next to the cookie box and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0794
+Success: True
+# episodes completed so far: 280
+# successes: 268 (95.7%)
+Current task success rate: 0.975
+Current total success rate: 0.9571428571428572
+Using default initial states
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0671
+Success: True
+# episodes completed so far: 281
+# successes: 269 (95.7%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0722
+Success: True
+# episodes completed so far: 282
+# successes: 270 (95.7%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0794
+Success: True
+# episodes completed so far: 283
+# successes: 271 (95.8%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0723
+Success: True
+# episodes completed so far: 284
+# successes: 272 (95.8%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0714
+Success: True
+# episodes completed so far: 285
+# successes: 273 (95.8%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0706
+Success: True
+# episodes completed so far: 286
+# successes: 274 (95.8%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0688
+Success: True
+# episodes completed so far: 287
+# successes: 275 (95.8%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0661
+Success: True
+# episodes completed so far: 288
+# successes: 276 (95.8%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0673
+Success: True
+# episodes completed so far: 289
+# successes: 277 (95.8%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0708
+Success: True
+# episodes completed so far: 290
+# successes: 278 (95.9%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0673
+Success: True
+# episodes completed so far: 291
+# successes: 279 (95.9%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0762
+Success: True
+# episodes completed so far: 292
+# successes: 280 (95.9%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0713
+Success: True
+# episodes completed so far: 293
+# successes: 281 (95.9%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0748
+Success: True
+# episodes completed so far: 294
+# successes: 282 (95.9%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0690
+Success: True
+# episodes completed so far: 295
+# successes: 283 (95.9%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0754
+Success: True
+# episodes completed so far: 296
+# successes: 284 (95.9%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0713
+Success: True
+# episodes completed so far: 297
+# successes: 285 (96.0%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0723
+Success: True
+# episodes completed so far: 298
+# successes: 286 (96.0%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0737
+Success: True
+# episodes completed so far: 299
+# successes: 287 (96.0%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0701
+Success: True
+# episodes completed so far: 300
+# successes: 288 (96.0%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0724
+Success: True
+# episodes completed so far: 301
+# successes: 289 (96.0%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0680
+Success: True
+# episodes completed so far: 302
+# successes: 290 (96.0%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0733
+Success: True
+# episodes completed so far: 303
+# successes: 291 (96.0%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0792
+Success: True
+# episodes completed so far: 304
+# successes: 292 (96.1%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0750
+Success: True
+# episodes completed so far: 305
+# successes: 293 (96.1%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0686
+Success: True
+# episodes completed so far: 306
+# successes: 294 (96.1%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0673
+Success: True
+# episodes completed so far: 307
+# successes: 295 (96.1%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0674
+Success: True
+# episodes completed so far: 308
+# successes: 296 (96.1%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0706
+Success: True
+# episodes completed so far: 309
+# successes: 297 (96.1%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0755
+Success: True
+# episodes completed so far: 310
+# successes: 298 (96.1%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0680
+Success: True
+# episodes completed so far: 311
+# successes: 299 (96.1%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0675
+Success: True
+# episodes completed so far: 312
+# successes: 300 (96.2%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0697
+Success: True
+# episodes completed so far: 313
+# successes: 301 (96.2%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0674
+Success: True
+# episodes completed so far: 314
+# successes: 302 (96.2%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0669
+Success: True
+# episodes completed so far: 315
+# successes: 303 (96.2%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0690
+Success: True
+# episodes completed so far: 316
+# successes: 304 (96.2%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0700
+Success: True
+# episodes completed so far: 317
+# successes: 305 (96.2%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0724
+Success: True
+# episodes completed so far: 318
+# successes: 306 (96.2%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0717
+Success: True
+# episodes completed so far: 319
+# successes: 307 (96.2%)
+
+Task: pick up the black bowl on the stove and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0685
+Success: True
+# episodes completed so far: 320
+# successes: 308 (96.2%)
+Current task success rate: 1.0
+Current total success rate: 0.9625
+Using default initial states
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0681
+Success: True
+# episodes completed so far: 321
+# successes: 309 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0739
+Success: True
+# episodes completed so far: 322
+# successes: 310 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0705
+Success: True
+# episodes completed so far: 323
+# successes: 311 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0748
+Success: True
+# episodes completed so far: 324
+# successes: 312 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0719
+Success: False
+# episodes completed so far: 325
+# successes: 312 (96.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0679
+Success: True
+# episodes completed so far: 326
+# successes: 313 (96.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0736
+Success: True
+# episodes completed so far: 327
+# successes: 314 (96.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0696
+Success: True
+# episodes completed so far: 328
+# successes: 315 (96.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0710
+Success: True
+# episodes completed so far: 329
+# successes: 316 (96.0%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0751
+Success: True
+# episodes completed so far: 330
+# successes: 317 (96.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0737
+Success: True
+# episodes completed so far: 331
+# successes: 318 (96.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0717
+Success: True
+# episodes completed so far: 332
+# successes: 319 (96.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0682
+Success: True
+# episodes completed so far: 333
+# successes: 320 (96.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0733
+Success: True
+# episodes completed so far: 334
+# successes: 321 (96.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0749
+Success: True
+# episodes completed so far: 335
+# successes: 322 (96.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0682
+Success: True
+# episodes completed so far: 336
+# successes: 323 (96.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0713
+Success: True
+# episodes completed so far: 337
+# successes: 324 (96.1%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0730
+Success: True
+# episodes completed so far: 338
+# successes: 325 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0735
+Success: True
+# episodes completed so far: 339
+# successes: 326 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0723
+Success: True
+# episodes completed so far: 340
+# successes: 327 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0729
+Success: True
+# episodes completed so far: 341
+# successes: 328 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0678
+Success: True
+# episodes completed so far: 342
+# successes: 329 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0744
+Success: True
+# episodes completed so far: 343
+# successes: 330 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0774
+Success: True
+# episodes completed so far: 344
+# successes: 331 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0782
+Success: True
+# episodes completed so far: 345
+# successes: 332 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0699
+Success: True
+# episodes completed so far: 346
+# successes: 333 (96.2%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0747
+Success: True
+# episodes completed so far: 347
+# successes: 334 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0711
+Success: True
+# episodes completed so far: 348
+# successes: 335 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0674
+Success: True
+# episodes completed so far: 349
+# successes: 336 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0692
+Success: True
+# episodes completed so far: 350
+# successes: 337 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0687
+Success: True
+# episodes completed so far: 351
+# successes: 338 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0684
+Success: True
+# episodes completed so far: 352
+# successes: 339 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 353
+# successes: 340 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0665
+Success: True
+# episodes completed so far: 354
+# successes: 341 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0670
+Success: True
+# episodes completed so far: 355
+# successes: 342 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0690
+Success: True
+# episodes completed so far: 356
+# successes: 343 (96.3%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0696
+Success: True
+# episodes completed so far: 357
+# successes: 344 (96.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0695
+Success: True
+# episodes completed so far: 358
+# successes: 345 (96.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0677
+Success: True
+# episodes completed so far: 359
+# successes: 346 (96.4%)
+
+Task: pick up the black bowl next to the plate and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0685
+Success: True
+# episodes completed so far: 360
+# successes: 347 (96.4%)
+Current task success rate: 0.975
+Current total success rate: 0.9638888888888889
+Using default initial states
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 1...
+task finished, average infer time:0.0677
+Success: True
+# episodes completed so far: 361
+# successes: 348 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 2...
+task finished, average infer time:0.0670
+Success: True
+# episodes completed so far: 362
+# successes: 349 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 3...
+task finished, average infer time:0.0664
+Success: True
+# episodes completed so far: 363
+# successes: 350 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 4...
+task finished, average infer time:0.0726
+Success: True
+# episodes completed so far: 364
+# successes: 351 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 5...
+task finished, average infer time:0.0704
+Success: True
+# episodes completed so far: 365
+# successes: 352 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 6...
+task finished, average infer time:0.0730
+Success: True
+# episodes completed so far: 366
+# successes: 353 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 7...
+task finished, average infer time:0.0729
+Success: True
+# episodes completed so far: 367
+# successes: 354 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 8...
+task finished, average infer time:0.0738
+Success: True
+# episodes completed so far: 368
+# successes: 355 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 9...
+task finished, average infer time:0.0770
+Success: True
+# episodes completed so far: 369
+# successes: 356 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 10...
+task finished, average infer time:0.0689
+Success: True
+# episodes completed so far: 370
+# successes: 357 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 11...
+task finished, average infer time:0.0756
+Success: True
+# episodes completed so far: 371
+# successes: 358 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 12...
+task finished, average infer time:0.0689
+Success: True
+# episodes completed so far: 372
+# successes: 359 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 13...
+task finished, average infer time:0.0694
+Success: False
+# episodes completed so far: 373
+# successes: 359 (96.2%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 14...
+task finished, average infer time:0.0724
+Success: True
+# episodes completed so far: 374
+# successes: 360 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 15...
+task finished, average infer time:0.0798
+Success: True
+# episodes completed so far: 375
+# successes: 361 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 16...
+task finished, average infer time:0.0682
+Success: True
+# episodes completed so far: 376
+# successes: 362 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 17...
+task finished, average infer time:0.0718
+Success: True
+# episodes completed so far: 377
+# successes: 363 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 18...
+task finished, average infer time:0.0676
+Success: True
+# episodes completed so far: 378
+# successes: 364 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 19...
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 379
+# successes: 365 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 20...
+task finished, average infer time:0.0743
+Success: True
+# episodes completed so far: 380
+# successes: 366 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 21...
+task finished, average infer time:0.0707
+Success: True
+# episodes completed so far: 381
+# successes: 367 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 22...
+task finished, average infer time:0.0710
+Success: True
+# episodes completed so far: 382
+# successes: 368 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 23...
+task finished, average infer time:0.0698
+Success: True
+# episodes completed so far: 383
+# successes: 369 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 24...
+task finished, average infer time:0.0740
+Success: True
+# episodes completed so far: 384
+# successes: 370 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 25...
+task finished, average infer time:0.0750
+Success: True
+# episodes completed so far: 385
+# successes: 371 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 26...
+task finished, average infer time:0.0729
+Success: True
+# episodes completed so far: 386
+# successes: 372 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 27...
+task finished, average infer time:0.0748
+Success: True
+# episodes completed so far: 387
+# successes: 373 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 28...
+task finished, average infer time:0.0740
+Success: True
+# episodes completed so far: 388
+# successes: 374 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 29...
+task finished, average infer time:0.0708
+Success: True
+# episodes completed so far: 389
+# successes: 375 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 30...
+task finished, average infer time:0.0682
+Success: True
+# episodes completed so far: 390
+# successes: 376 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 31...
+task finished, average infer time:0.0680
+Success: True
+# episodes completed so far: 391
+# successes: 377 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 32...
+task finished, average infer time:0.0765
+Success: True
+# episodes completed so far: 392
+# successes: 378 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 33...
+task finished, average infer time:0.0740
+Success: True
+# episodes completed so far: 393
+# successes: 379 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 34...
+task finished, average infer time:0.0787
+Success: True
+# episodes completed so far: 394
+# successes: 380 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 35...
+task finished, average infer time:0.0743
+Success: True
+# episodes completed so far: 395
+# successes: 381 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 36...
+task finished, average infer time:0.0673
+Success: True
+# episodes completed so far: 396
+# successes: 382 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 37...
+task finished, average infer time:0.0773
+Success: True
+# episodes completed so far: 397
+# successes: 383 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 38...
+task finished, average infer time:0.0734
+Success: True
+# episodes completed so far: 398
+# successes: 384 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 39...
+task finished, average infer time:0.0705
+Success: True
+# episodes completed so far: 399
+# successes: 385 (96.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 40...
+task finished, average infer time:0.0694
+Success: True
+# episodes completed so far: 400
+# successes: 386 (96.5%)
+Current task success rate: 0.975
+Current total success rate: 0.965
+Final results:
+Total episodes: 400
+Total successes: 386
+Overall success rate: 0.9650 (96.5%)

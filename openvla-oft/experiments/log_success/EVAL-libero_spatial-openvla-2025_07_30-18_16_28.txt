@@ -1,0 +1,1260 @@
+Task suite: libero_spatial
+token_prune: True
+layer_prune: True
+action_adapter: True
+Dynamic Prune Ratio = 0.8
+STATIC_PRUNE_RATIO = 0.8
+ATTN_TOPK = 16
+ATTN_TOPK_WRIST = 16
+ATTN_TOPK_PRECISE = 25
+PRIMARY_TOPK = 220
+PRIMARY_TOPK_PRECISE = 200
+WRIST_TOPK = 220
+WRIST_TOPK_PRECISE = 220
+VELOCITY_THRES = 0.3
+ROT_THRES= 0.2
+XY_THRES = 0.1
+Z_THRES = 0.1
+skiplayer = 3
+thres = 0.98
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+Current task success rate: 0
+Current total success rate: 0
+Using default initial states
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 1...
+one_step infer time:0.813203
+one_step infer time:0.152175
+one_step infer time:0.073756
+one_step infer time:0.073840
+one_step infer time:0.072307
+one_step infer time:0.077977
+one_step infer time:0.075125
+one_step infer time:0.075941
+one_step infer time:0.076773
+one_step infer time:0.071962
+one_step infer time:0.072687
+one_step infer time:0.072609
+one_step infer time:0.069817
+one_step infer time:0.072337
+one_step infer time:0.070535
+one_step infer time:0.071559
+task finished, average infer time:0.1245
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 2...
+one_step infer time:0.072438
+one_step infer time:0.073111
+one_step infer time:0.072647
+one_step infer time:0.071223
+one_step infer time:0.072853
+one_step infer time:0.070820
+one_step infer time:0.069472
+one_step infer time:0.074648
+one_step infer time:0.074032
+one_step infer time:0.072010
+one_step infer time:0.069765
+one_step infer time:0.071871
+one_step infer time:0.072000
+one_step infer time:0.070850
+one_step infer time:0.069151
+one_step infer time:0.069089
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 3...
+one_step infer time:0.072521
+one_step infer time:0.073476
+one_step infer time:0.072774
+one_step infer time:0.070488
+one_step infer time:0.069214
+one_step infer time:0.069458
+one_step infer time:0.070704
+one_step infer time:0.074798
+one_step infer time:0.071477
+one_step infer time:0.068251
+one_step infer time:0.066756
+one_step infer time:0.068320
+one_step infer time:0.068259
+one_step infer time:0.067644
+one_step infer time:0.067742
+one_step infer time:0.069176
+one_step infer time:0.070987
+task finished, average infer time:0.0701
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 4...
+one_step infer time:0.072986
+one_step infer time:0.074597
+one_step infer time:0.074713
+one_step infer time:0.080978
+one_step infer time:0.072556
+one_step infer time:0.071726
+one_step infer time:0.073762
+one_step infer time:0.077268
+one_step infer time:0.073957
+one_step infer time:0.071125
+one_step infer time:0.068931
+one_step infer time:0.069000
+one_step infer time:0.070127
+one_step infer time:0.070064
+one_step infer time:0.070041
+one_step infer time:0.070547
+task finished, average infer time:0.0726
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 5...
+one_step infer time:0.074139
+one_step infer time:0.079294
+one_step infer time:0.075086
+one_step infer time:0.070660
+one_step infer time:0.071910
+one_step infer time:0.070003
+one_step infer time:0.073172
+one_step infer time:0.074646
+one_step infer time:0.073731
+one_step infer time:0.078175
+one_step infer time:0.073453
+one_step infer time:0.069934
+one_step infer time:0.070055
+one_step infer time:0.069799
+one_step infer time:0.070367
+one_step infer time:0.071606
+task finished, average infer time:0.0729
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 6...
+one_step infer time:0.072047
+one_step infer time:0.074478
+one_step infer time:0.071315
+one_step infer time:0.072229
+one_step infer time:0.070606
+one_step infer time:0.070589
+one_step infer time:0.070574
+one_step infer time:0.075121
+one_step infer time:0.073823
+one_step infer time:0.069511
+one_step infer time:0.069386
+one_step infer time:0.079267
+one_step infer time:0.069254
+one_step infer time:0.069341
+one_step infer time:0.069536
+one_step infer time:0.069268
+one_step infer time:0.070610
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 7...
+one_step infer time:0.070412
+one_step infer time:0.072240
+one_step infer time:0.072909
+one_step infer time:0.070757
+one_step infer time:0.071168
+one_step infer time:0.070154
+one_step infer time:0.072284
+one_step infer time:0.074476
+one_step infer time:0.073851
+one_step infer time:0.071103
+one_step infer time:0.067034
+one_step infer time:0.069430
+one_step infer time:0.069672
+one_step infer time:0.068821
+one_step infer time:0.068829
+one_step infer time:0.070600
+one_step infer time:0.072074
+task finished, average infer time:0.0709
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 8...
+one_step infer time:0.070776
+one_step infer time:0.073924
+one_step infer time:0.073201
+one_step infer time:0.070546
+one_step infer time:0.069271
+one_step infer time:0.069092
+one_step infer time:0.079150
+one_step infer time:0.073101
+one_step infer time:0.069546
+one_step infer time:0.069376
+one_step infer time:0.069412
+one_step infer time:0.069093
+one_step infer time:0.069086
+one_step infer time:0.074991
+one_step infer time:0.070009
+one_step infer time:0.069371
+one_step infer time:0.070914
+one_step infer time:0.069407
+one_step infer time:0.071475
+one_step infer time:0.071161
+one_step infer time:0.071136
+one_step infer time:0.072143
+one_step infer time:0.076127
+one_step infer time:0.075924
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 9...
+one_step infer time:0.071904
+one_step infer time:0.073831
+one_step infer time:0.074082
+one_step infer time:0.072342
+one_step infer time:0.071164
+one_step infer time:0.071356
+one_step infer time:0.071673
+one_step infer time:0.076352
+one_step infer time:0.073289
+one_step infer time:0.070201
+one_step infer time:0.069818
+one_step infer time:0.068270
+one_step infer time:0.068490
+one_step infer time:0.068466
+one_step infer time:0.069896
+one_step infer time:0.071687
+task finished, average infer time:0.0714
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 10...
+one_step infer time:0.070672
+one_step infer time:0.079067
+one_step infer time:0.072119
+one_step infer time:0.082809
+one_step infer time:0.070745
+one_step infer time:0.071020
+one_step infer time:0.070300
+one_step infer time:0.076044
+one_step infer time:0.074935
+one_step infer time:0.072247
+one_step infer time:0.068030
+one_step infer time:0.069180
+one_step infer time:0.071532
+one_step infer time:0.070431
+one_step infer time:0.070590
+one_step infer time:0.070634
+one_step infer time:0.070046
+one_step infer time:0.071699
+task finished, average infer time:0.0723
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 11...
+one_step infer time:0.070843
+one_step infer time:0.077379
+one_step infer time:0.069820
+one_step infer time:0.070472
+one_step infer time:0.072301
+one_step infer time:0.070270
+one_step infer time:0.069367
+one_step infer time:0.074110
+one_step infer time:0.072315
+one_step infer time:0.070754
+one_step infer time:0.067338
+one_step infer time:0.068251
+one_step infer time:0.070401
+one_step infer time:0.070295
+one_step infer time:0.069957
+one_step infer time:0.071955
+task finished, average infer time:0.0710
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 12...
+one_step infer time:0.073389
+one_step infer time:0.073859
+one_step infer time:0.072868
+one_step infer time:0.071157
+one_step infer time:0.072687
+one_step infer time:0.069937
+one_step infer time:0.072777
+one_step infer time:0.074319
+one_step infer time:0.073125
+one_step infer time:0.069075
+one_step infer time:0.075083
+one_step infer time:0.070906
+one_step infer time:0.068980
+one_step infer time:0.068633
+one_step infer time:0.070306
+one_step infer time:0.070515
+task finished, average infer time:0.0717
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 13...
+one_step infer time:0.073338
+one_step infer time:0.073146
+one_step infer time:0.069618
+one_step infer time:0.069759
+one_step infer time:0.070683
+one_step infer time:0.073139
+one_step infer time:0.073279
+one_step infer time:0.074869
+one_step infer time:0.078501
+one_step infer time:0.074308
+one_step infer time:0.072021
+one_step infer time:0.070389
+one_step infer time:0.071455
+one_step infer time:0.068549
+one_step infer time:0.070618
+one_step infer time:0.069158
+one_step infer time:0.070374
+task finished, average infer time:0.0720
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 14...
+one_step infer time:0.075480
+one_step infer time:0.073904
+one_step infer time:0.072045
+one_step infer time:0.068528
+one_step infer time:0.070462
+one_step infer time:0.068222
+one_step infer time:0.069524
+one_step infer time:0.075745
+one_step infer time:0.072372
+one_step infer time:0.070510
+one_step infer time:0.068203
+one_step infer time:0.066239
+one_step infer time:0.068094
+one_step infer time:0.068235
+one_step infer time:0.069686
+one_step infer time:0.070152
+task finished, average infer time:0.0705
+Success: True
+# episodes completed so far: 14
+# successes: 14 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 15...
+one_step infer time:0.070355
+one_step infer time:0.075557
+one_step infer time:0.085343
+one_step infer time:0.070647
+one_step infer time:0.069454
+one_step infer time:0.068841
+one_step infer time:0.068793
+one_step infer time:0.073573
+one_step infer time:0.077606
+one_step infer time:0.072260
+one_step infer time:0.067641
+one_step infer time:0.070669
+one_step infer time:0.069351
+one_step infer time:0.069930
+one_step infer time:0.069613
+one_step infer time:0.074531
+one_step infer time:0.071020
+task finished, average infer time:0.0721
+Success: True
+# episodes completed so far: 15
+# successes: 15 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 16...
+one_step infer time:0.070180
+one_step infer time:0.074504
+one_step infer time:0.070528
+one_step infer time:0.072528
+one_step infer time:0.070184
+one_step infer time:0.073508
+one_step infer time:0.073535
+one_step infer time:0.074216
+one_step infer time:0.072521
+one_step infer time:0.068352
+one_step infer time:0.068335
+one_step infer time:0.067351
+one_step infer time:0.068525
+one_step infer time:0.068588
+one_step infer time:0.068537
+one_step infer time:0.070685
+task finished, average infer time:0.0708
+Success: True
+# episodes completed so far: 16
+# successes: 16 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 17...
+one_step infer time:0.069871
+one_step infer time:0.074640
+one_step infer time:0.074299
+one_step infer time:0.069753
+one_step infer time:0.071911
+one_step infer time:0.071021
+one_step infer time:0.070954
+one_step infer time:0.077649
+one_step infer time:0.073897
+one_step infer time:0.074413
+one_step infer time:0.071709
+one_step infer time:0.068060
+one_step infer time:0.069601
+one_step infer time:0.069498
+one_step infer time:0.070233
+one_step infer time:0.074086
+task finished, average infer time:0.0720
+Success: True
+# episodes completed so far: 17
+# successes: 17 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 18...
+one_step infer time:0.073429
+one_step infer time:0.081854
+one_step infer time:0.073124
+one_step infer time:0.071580
+one_step infer time:0.071967
+one_step infer time:0.072294
+one_step infer time:0.088450
+one_step infer time:0.077750
+one_step infer time:0.079827
+one_step infer time:0.073754
+one_step infer time:0.070911
+one_step infer time:0.067655
+one_step infer time:0.068078
+one_step infer time:0.069242
+one_step infer time:0.068100
+one_step infer time:0.072008
+task finished, average infer time:0.0738
+Success: True
+# episodes completed so far: 18
+# successes: 18 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 19...
+one_step infer time:0.076328
+one_step infer time:0.074831
+one_step infer time:0.070147
+one_step infer time:0.070408
+one_step infer time:0.069540
+one_step infer time:0.070211
+one_step infer time:0.073129
+one_step infer time:0.074795
+one_step infer time:0.084381
+one_step infer time:0.068475
+one_step infer time:0.067833
+one_step infer time:0.066400
+one_step infer time:0.068453
+one_step infer time:0.070936
+one_step infer time:0.068885
+one_step infer time:0.070289
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 19
+# successes: 19 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 20...
+one_step infer time:0.071443
+one_step infer time:0.074825
+one_step infer time:0.071925
+one_step infer time:0.071519
+one_step infer time:0.070774
+one_step infer time:0.073606
+one_step infer time:0.071247
+one_step infer time:0.076305
+one_step infer time:0.075644
+one_step infer time:0.070523
+one_step infer time:0.070184
+one_step infer time:0.070935
+one_step infer time:0.070601
+one_step infer time:0.071799
+one_step infer time:0.069949
+one_step infer time:0.069757
+one_step infer time:0.071630
+task finished, average infer time:0.0719
+Success: True
+# episodes completed so far: 20
+# successes: 20 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 21...
+one_step infer time:0.071460
+one_step infer time:0.074549
+one_step infer time:0.072660
+one_step infer time:0.071435
+one_step infer time:0.072750
+one_step infer time:0.070571
+one_step infer time:0.076240
+one_step infer time:0.077183
+one_step infer time:0.072359
+one_step infer time:0.080066
+one_step infer time:0.068511
+one_step infer time:0.068589
+one_step infer time:0.070262
+one_step infer time:0.072141
+one_step infer time:0.071075
+one_step infer time:0.071428
+one_step infer time:0.073720
+task finished, average infer time:0.0726
+Success: True
+# episodes completed so far: 21
+# successes: 21 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 22...
+one_step infer time:0.069769
+one_step infer time:0.078576
+one_step infer time:0.072500
+one_step infer time:0.069776
+one_step infer time:0.068386
+one_step infer time:0.069405
+one_step infer time:0.069550
+one_step infer time:0.074776
+one_step infer time:0.071862
+one_step infer time:0.068216
+one_step infer time:0.067815
+one_step infer time:0.068359
+one_step infer time:0.068120
+one_step infer time:0.073023
+one_step infer time:0.068284
+one_step infer time:0.071740
+task finished, average infer time:0.0706
+Success: True
+# episodes completed so far: 22
+# successes: 22 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 23...
+one_step infer time:0.071125
+one_step infer time:0.082803
+one_step infer time:0.072877
+one_step infer time:0.072354
+one_step infer time:0.069557
+one_step infer time:0.069523
+one_step infer time:0.073422
+one_step infer time:0.075802
+one_step infer time:0.073270
+one_step infer time:0.072248
+one_step infer time:0.068169
+one_step infer time:0.067277
+one_step infer time:0.067636
+one_step infer time:0.068827
+one_step infer time:0.068992
+one_step infer time:0.071282
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 23
+# successes: 23 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 24...
+one_step infer time:0.069890
+one_step infer time:0.074922
+one_step infer time:0.072033
+one_step infer time:0.072778
+one_step infer time:0.069101
+one_step infer time:0.070908
+one_step infer time:0.079657
+one_step infer time:0.072821
+one_step infer time:0.071640
+one_step infer time:0.067820
+one_step infer time:0.068200
+one_step infer time:0.069873
+one_step infer time:0.069894
+one_step infer time:0.069720
+one_step infer time:0.070025
+one_step infer time:0.072029
+task finished, average infer time:0.0713
+Success: True
+# episodes completed so far: 24
+# successes: 24 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 25...
+one_step infer time:0.072368
+one_step infer time:0.075813
+one_step infer time:0.073935
+one_step infer time:0.068801
+one_step infer time:0.068848
+one_step infer time:0.069010
+one_step infer time:0.078921
+one_step infer time:0.075109
+one_step infer time:0.073383
+one_step infer time:0.069512
+one_step infer time:0.066105
+one_step infer time:0.073011
+one_step infer time:0.068175
+one_step infer time:0.077036
+one_step infer time:0.068331
+one_step infer time:0.068294
+one_step infer time:0.070338
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 25
+# successes: 25 (100.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 26...
+one_step infer time:0.070654
+one_step infer time:0.078612
+one_step infer time:0.070582
+one_step infer time:0.072384
+one_step infer time:0.083691
+one_step infer time:0.069834
+one_step infer time:0.070222
+one_step infer time:0.072341
+one_step infer time:0.072743
+one_step infer time:0.069926
+one_step infer time:0.068792
+one_step infer time:0.070344
+one_step infer time:0.069239
+one_step infer time:0.068774
+one_step infer time:0.069303
+one_step infer time:0.072025
+one_step infer time:0.072479
+one_step infer time:0.071423
+one_step infer time:0.071263
+one_step infer time:0.068945
+one_step infer time:0.070237
+one_step infer time:0.068660
+one_step infer time:0.070193
+one_step infer time:0.070688
+one_step infer time:0.079131
+one_step infer time:0.070003
+one_step infer time:0.070206
+one_step infer time:0.070574
+one_step infer time:0.070085
+one_step infer time:0.070533
+one_step infer time:0.070615
+one_step infer time:0.070826
+one_step infer time:0.072290
+task finished, average infer time:0.0714
+Success: False
+# episodes completed so far: 26
+# successes: 25 (96.2%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 27...
+one_step infer time:0.071288
+one_step infer time:0.074359
+one_step infer time:0.070348
+one_step infer time:0.070319
+one_step infer time:0.068195
+one_step infer time:0.073139
+one_step infer time:0.074361
+one_step infer time:0.072208
+one_step infer time:0.071706
+one_step infer time:0.072961
+one_step infer time:0.069453
+one_step infer time:0.072620
+one_step infer time:0.068505
+one_step infer time:0.068184
+one_step infer time:0.067871
+one_step infer time:0.070028
+task finished, average infer time:0.0710
+Success: True
+# episodes completed so far: 27
+# successes: 26 (96.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 28...
+one_step infer time:0.070434
+one_step infer time:0.075819
+one_step infer time:0.072618
+one_step infer time:0.070919
+one_step infer time:0.068760
+one_step infer time:0.069774
+one_step infer time:0.069143
+one_step infer time:0.074068
+one_step infer time:0.073115
+one_step infer time:0.068677
+one_step infer time:0.068508
+one_step infer time:0.066756
+one_step infer time:0.068521
+one_step infer time:0.068530
+one_step infer time:0.068681
+one_step infer time:0.068840
+one_step infer time:0.070395
+task finished, average infer time:0.0702
+Success: True
+# episodes completed so far: 28
+# successes: 27 (96.4%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 29...
+one_step infer time:0.070068
+one_step infer time:0.074374
+one_step infer time:0.070255
+one_step infer time:0.071428
+one_step infer time:0.068158
+one_step infer time:0.068127
+one_step infer time:0.069251
+one_step infer time:0.079247
+one_step infer time:0.073520
+one_step infer time:0.068392
+one_step infer time:0.068253
+one_step infer time:0.068383
+one_step infer time:0.068998
+one_step infer time:0.067995
+one_step infer time:0.068967
+one_step infer time:0.071036
+task finished, average infer time:0.0704
+Success: True
+# episodes completed so far: 29
+# successes: 28 (96.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 30...
+one_step infer time:0.072047
+one_step infer time:0.075916
+one_step infer time:0.074065
+one_step infer time:0.072392
+one_step infer time:0.069334
+one_step infer time:0.069476
+one_step infer time:0.072997
+one_step infer time:0.074574
+one_step infer time:0.073284
+one_step infer time:0.074975
+one_step infer time:0.069690
+one_step infer time:0.069700
+one_step infer time:0.069073
+one_step infer time:0.069522
+one_step infer time:0.070941
+one_step infer time:0.071118
+one_step infer time:0.071142
+one_step infer time:0.071845
+task finished, average infer time:0.0718
+Success: True
+# episodes completed so far: 30
+# successes: 29 (96.7%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 31...
+one_step infer time:0.070231
+one_step infer time:0.074700
+one_step infer time:0.074157
+one_step infer time:0.071705
+one_step infer time:0.071315
+one_step infer time:0.071368
+one_step infer time:0.074793
+one_step infer time:0.077892
+one_step infer time:0.077467
+one_step infer time:0.072223
+one_step infer time:0.068999
+one_step infer time:0.068573
+one_step infer time:0.068539
+one_step infer time:0.070204
+one_step infer time:0.069250
+one_step infer time:0.070469
+one_step infer time:0.071494
+task finished, average infer time:0.0720
+Success: True
+# episodes completed so far: 31
+# successes: 30 (96.8%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 32...
+one_step infer time:0.071096
+one_step infer time:0.078311
+one_step infer time:0.073364
+one_step infer time:0.077090
+one_step infer time:0.072065
+one_step infer time:0.070848
+one_step infer time:0.070514
+one_step infer time:0.074688
+one_step infer time:0.073889
+one_step infer time:0.069566
+one_step infer time:0.069931
+one_step infer time:0.075792
+one_step infer time:0.069941
+one_step infer time:0.069794
+one_step infer time:0.069705
+one_step infer time:0.070714
+one_step infer time:0.070024
+task finished, average infer time:0.0722
+Success: True
+# episodes completed so far: 32
+# successes: 31 (96.9%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 33...
+one_step infer time:0.072203
+one_step infer time:0.075238
+one_step infer time:0.074050
+one_step infer time:0.071148
+one_step infer time:0.070117
+one_step infer time:0.069808
+one_step infer time:0.091759
+one_step infer time:0.164411
+one_step infer time:0.072833
+one_step infer time:0.069055
+one_step infer time:0.123530
+one_step infer time:0.067909
+one_step infer time:0.070843
+one_step infer time:0.070327
+one_step infer time:0.070624
+one_step infer time:0.072300
+task finished, average infer time:0.0816
+Success: True
+# episodes completed so far: 33
+# successes: 32 (97.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 34...
+one_step infer time:0.073697
+one_step infer time:0.076025
+one_step infer time:0.073635
+one_step infer time:0.072485
+one_step infer time:0.140533
+one_step infer time:0.071781
+one_step infer time:0.071804
+one_step infer time:0.078795
+one_step infer time:0.130018
+one_step infer time:0.070335
+one_step infer time:0.069750
+one_step infer time:0.116991
+one_step infer time:0.070131
+one_step infer time:0.071165
+one_step infer time:0.071785
+one_step infer time:0.073699
+task finished, average infer time:0.0833
+Success: True
+# episodes completed so far: 34
+# successes: 33 (97.1%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 35...
+one_step infer time:0.092865
+one_step infer time:0.076910
+one_step infer time:0.072651
+one_step infer time:0.074117
+one_step infer time:0.071069
+one_step infer time:0.071149
+one_step infer time:0.069128
+one_step infer time:0.074210
+one_step infer time:0.075349
+one_step infer time:0.071079
+one_step infer time:0.069665
+one_step infer time:0.068939
+one_step infer time:0.070285
+one_step infer time:0.070513
+one_step infer time:0.068866
+one_step infer time:0.070840
+task finished, average infer time:0.0730
+Success: True
+# episodes completed so far: 35
+# successes: 34 (97.1%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 36...
+one_step infer time:0.072122
+one_step infer time:0.106919
+one_step infer time:0.071924
+one_step infer time:0.071399
+one_step infer time:0.069945
+one_step infer time:0.069282
+one_step infer time:0.070082
+one_step infer time:0.072805
+one_step infer time:0.074323
+one_step infer time:0.093144
+one_step infer time:0.070090
+one_step infer time:0.069353
+one_step infer time:0.073374
+one_step infer time:0.071517
+one_step infer time:0.070137
+one_step infer time:0.131021
+task finished, average infer time:0.0786
+Success: True
+# episodes completed so far: 36
+# successes: 35 (97.2%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 37...
+one_step infer time:0.070449
+one_step infer time:0.074565
+one_step infer time:0.073475
+one_step infer time:0.143656
+one_step infer time:0.072839
+one_step infer time:0.070590
+one_step infer time:0.072469
+one_step infer time:0.074868
+one_step infer time:0.075111
+one_step infer time:0.072095
+one_step infer time:0.072791
+one_step infer time:0.070645
+one_step infer time:0.078099
+one_step infer time:0.113292
+one_step infer time:0.070604
+one_step infer time:0.071343
+one_step infer time:0.070869
+one_step infer time:0.073394
+one_step infer time:0.076194
+one_step infer time:0.073472
+one_step infer time:0.074692
+one_step infer time:0.074898
+one_step infer time:0.074345
+one_step infer time:0.075166
+one_step infer time:0.071914
+one_step infer time:0.072467
+one_step infer time:0.073993
+one_step infer time:0.072678
+one_step infer time:0.073755
+one_step infer time:0.073667
+one_step infer time:0.072075
+one_step infer time:0.073685
+task finished, average infer time:0.0767
+Success: False
+# episodes completed so far: 37
+# successes: 35 (94.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 38...
+one_step infer time:0.072002
+one_step infer time:0.074862
+one_step infer time:0.071913
+one_step infer time:0.076653
+one_step infer time:0.070148
+one_step infer time:0.069016
+one_step infer time:0.072493
+one_step infer time:0.074728
+one_step infer time:0.072629
+one_step infer time:0.069878
+one_step infer time:0.069670
+one_step infer time:0.070036
+one_step infer time:0.070374
+one_step infer time:0.068644
+one_step infer time:0.099302
+one_step infer time:0.070785
+task finished, average infer time:0.0733
+Success: True
+# episodes completed so far: 38
+# successes: 36 (94.7%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 39...
+one_step infer time:0.073488
+one_step infer time:0.075427
+one_step infer time:0.073908
+one_step infer time:0.071672
+one_step infer time:0.072255
+one_step infer time:0.071359
+one_step infer time:0.070303
+one_step infer time:0.076638
+one_step infer time:0.074551
+one_step infer time:0.069027
+one_step infer time:0.066825
+one_step infer time:0.072064
+one_step infer time:0.133204
+one_step infer time:0.068947
+one_step infer time:0.068800
+one_step infer time:0.073633
+task finished, average infer time:0.0758
+Success: True
+# episodes completed so far: 39
+# successes: 37 (94.9%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 40...
+one_step infer time:0.072452
+one_step infer time:0.075533
+one_step infer time:0.071767
+one_step infer time:0.071197
+one_step infer time:0.070596
+one_step infer time:0.071144
+one_step infer time:0.115772
+one_step infer time:0.068501
+one_step infer time:0.070912
+one_step infer time:0.072644
+one_step infer time:0.068225
+one_step infer time:0.069284
+one_step infer time:0.069529
+one_step infer time:0.069808
+one_step infer time:0.069502
+one_step infer time:0.069600
+task finished, average infer time:0.0735
+Success: True
+# episodes completed so far: 40
+# successes: 38 (95.0%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 41...
+one_step infer time:0.128479
+one_step infer time:0.069420
+one_step infer time:0.072721
+one_step infer time:0.070590
+one_step infer time:0.073164
+one_step infer time:0.070367
+one_step infer time:0.076019
+one_step infer time:0.077210
+one_step infer time:0.070761
+one_step infer time:0.071818
+one_step infer time:0.081058
+one_step infer time:0.070369
+one_step infer time:0.069419
+one_step infer time:0.071863
+one_step infer time:0.071003
+task finished, average infer time:0.0763
+Success: True
+# episodes completed so far: 41
+# successes: 39 (95.1%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 42...
+one_step infer time:0.070848
+one_step infer time:0.084704
+one_step infer time:0.072905
+one_step infer time:0.074987
+one_step infer time:0.069444
+one_step infer time:0.069396
+one_step infer time:0.070622
+one_step infer time:0.074230
+one_step infer time:0.074368
+one_step infer time:0.120280
+one_step infer time:0.071281
+one_step infer time:0.069488
+one_step infer time:0.070163
+one_step infer time:0.070090
+one_step infer time:0.073702
+one_step infer time:0.069835
+one_step infer time:0.070587
+task finished, average infer time:0.0751
+Success: True
+# episodes completed so far: 42
+# successes: 40 (95.2%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 43...
+one_step infer time:0.069975
+one_step infer time:0.074444
+one_step infer time:0.073865
+one_step infer time:0.071227
+one_step infer time:0.069617
+one_step infer time:0.070953
+one_step infer time:0.079915
+one_step infer time:0.075465
+one_step infer time:0.075525
+one_step infer time:0.071564
+one_step infer time:0.068969
+one_step infer time:0.070717
+one_step infer time:0.069963
+one_step infer time:0.070038
+one_step infer time:0.069073
+one_step infer time:0.073620
+task finished, average infer time:0.0722
+Success: True
+# episodes completed so far: 43
+# successes: 41 (95.3%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 44...
+one_step infer time:0.070819
+one_step infer time:0.068864
+one_step infer time:0.073796
+one_step infer time:0.069996
+one_step infer time:0.069799
+one_step infer time:0.070889
+one_step infer time:0.070180
+one_step infer time:0.075158
+one_step infer time:0.074560
+one_step infer time:0.070701
+one_step infer time:0.071764
+one_step infer time:0.070810
+one_step infer time:0.071638
+one_step infer time:0.070183
+one_step infer time:0.071988
+one_step infer time:0.072073
+task finished, average infer time:0.0715
+Success: True
+# episodes completed so far: 44
+# successes: 42 (95.5%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 45...
+one_step infer time:0.070505
+one_step infer time:0.075466
+one_step infer time:0.073299
+one_step infer time:0.070240
+one_step infer time:0.092165
+one_step infer time:0.069624
+one_step infer time:0.070758
+one_step infer time:0.076015
+one_step infer time:0.075201
+one_step infer time:0.069260
+one_step infer time:0.069999
+one_step infer time:0.071672
+one_step infer time:0.067279
+one_step infer time:0.072648
+one_step infer time:0.070946
+one_step infer time:0.070837
+one_step infer time:0.071247
+task finished, average infer time:0.0728
+Success: True
+# episodes completed so far: 45
+# successes: 43 (95.6%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 46...
+one_step infer time:0.072007
+one_step infer time:0.076953
+one_step infer time:0.073946
+one_step infer time:0.072031
+one_step infer time:0.070659
+one_step infer time:0.071964
+one_step infer time:0.074404
+one_step infer time:0.076165
+one_step infer time:0.147695
+one_step infer time:0.087943
+one_step infer time:0.102592
+one_step infer time:0.068667
+one_step infer time:0.083528
+one_step infer time:0.071035
+one_step infer time:0.074974
+one_step infer time:0.073200
+task finished, average infer time:0.0811
+Success: True
+# episodes completed so far: 46
+# successes: 44 (95.7%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 47...
+one_step infer time:0.073244
+one_step infer time:0.076404
+one_step infer time:0.073994
+one_step infer time:0.072484
+one_step infer time:0.074071
+one_step infer time:0.072350
+one_step infer time:0.074091
+one_step infer time:0.076867
+one_step infer time:0.124602
+one_step infer time:0.074042
+one_step infer time:0.069124
+one_step infer time:0.068897
+one_step infer time:0.069907
+one_step infer time:0.092253
+one_step infer time:0.069422
+one_step infer time:0.069257
+task finished, average infer time:0.0769
+Success: True
+# episodes completed so far: 47
+# successes: 45 (95.7%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 48...
+one_step infer time:0.073121
+one_step infer time:0.076447
+one_step infer time:0.072404
+one_step infer time:0.071310
+one_step infer time:0.072442
+one_step infer time:0.069533
+one_step infer time:0.069467
+one_step infer time:0.074308
+one_step infer time:0.072847
+one_step infer time:0.070350
+one_step infer time:0.069609
+one_step infer time:0.071262
+one_step infer time:0.069799
+one_step infer time:0.069123
+one_step infer time:0.070867
+one_step infer time:0.072571
+task finished, average infer time:0.0716
+Success: True
+# episodes completed so far: 48
+# successes: 46 (95.8%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 49...
+one_step infer time:0.070873
+one_step infer time:0.075309
+one_step infer time:0.073658
+one_step infer time:0.073242
+one_step infer time:0.071455
+one_step infer time:0.073773
+one_step infer time:0.077695
+one_step infer time:0.073984
+one_step infer time:0.075428
+one_step infer time:0.070999
+one_step infer time:0.071594
+one_step infer time:0.069343
+one_step infer time:0.075006
+one_step infer time:0.098876
+one_step infer time:0.074085
+task finished, average infer time:0.0750
+Success: True
+# episodes completed so far: 49
+# successes: 47 (95.9%)
+
+Task: pick up the black bowl on the wooden cabinet and place it on the plate
+Starting episode 50...
+one_step infer time:0.071399
+one_step infer time:0.076484
+one_step infer time:0.074588
+one_step infer time:0.071952
+one_step infer time:0.073493
+one_step infer time:0.071770
+one_step infer time:0.073060
+one_step infer time:0.076079
+one_step infer time:0.072289
+one_step infer time:0.074197
+one_step infer time:0.072900
+one_step infer time:0.070722
+one_step infer time:0.092771
+one_step infer time:0.071081
+one_step infer time:0.072436
+one_step infer time:0.070799
+one_step infer time:0.074731
+task finished, average infer time:0.0742
+Success: True
+# episodes completed so far: 50
+# successes: 48 (96.0%)
+Current task success rate: 0.96
+Current total success rate: 0.96
+Final results:
+Total episodes: 50
+Total successes: 48
+Overall success rate: 0.9600 (96.0%)
