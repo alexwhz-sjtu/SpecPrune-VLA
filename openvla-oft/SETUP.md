@@ -4,8 +4,8 @@
 
 ```bash
 # Create and activate conda environment
-conda create -n SSPADA python=3.10 -y
-conda activate SSPADA
+conda create -n SpecPrune python=3.10 -y
+conda activate SpecPrune
 
 # Install PyTorch
 # Use a command specific to your machine: https://pytorch.org/get-started/locally/

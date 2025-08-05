@@ -95,26 +95,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-'''
-cmd:
-
-python experiments/robot/libero/run_libero_eval.py \
-  --pretrained_checkpoint /home/wanghanzhen/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-10/snapshots/95220f9a3421a7ff12d4218e73d09ade830fa9a3 \
-  --task_suite_name libero_10
-
-python experiments/robot/libero/run_libero_eval.py \
-  --pretrained_checkpoint /home/wanghanzhen/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-spatial/snapshots/6d0231af0e48c5985f1ff86908f4674b84bc049b \
-  --task_suite_name libero_spatial
-
-python experiments/robot/libero/run_libero_eval.py \
-  --pretrained_checkpoint /home/wanghanzhen/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-goal/snapshots/c2d0f9fbbd82674683b397ff923168a12f6a307b \
-  --task_suite_name libero_goal
-
-python experiments/robot/libero/run_libero_eval.py \
-  --pretrained_checkpoint /home/wanghanzhen/.cache/huggingface/hub/models--moojink--openvla-7b-oft-finetuned-libero-object/snapshots/4c89574e1c538b6c102f43f0526d60a9d3650148 \
-  --task_suite_name libero_object
-  
-'''
 
 @dataclass
 class GenerateConfig:
@@ -123,10 +103,10 @@ class GenerateConfig:
     #################################################################################################################
     # SpecPrune function
     #################################################################################################################
-    token_prune = True
-    dynamic_prune = False
-    layer_skip = True
-    action_adapter = False
+    token_prune = True # static
+    dynamic_prune = False #dynamic
+    layer_skip = False
+    action_adapter = True
     use_cache = False
     #################################################################################################################
     # Model-specific parameters
@@ -361,8 +341,6 @@ def run_episode(
     prev_img = None
     max_steps = TASK_MAX_STEPS[cfg.task_suite_name]
     acting_steps=0 # Number of steps where the robot is actually acting
-    # initialize past_key_values. we don't need last episode past_key_values, so we can set it to None
-    past_key_values=None
     # Run episode
     success = False
     precise_mode = False
@@ -436,17 +414,11 @@ def run_episode(
             infer_step += 1
             all_infer_time += infer_time
             avg_infer_time = all_infer_time/infer_step
-            # log_message(f"one_step infer time:{infer_time:4f}", log_file)
-
-        
-
         # Get action from queue
         action = action_queue.popleft()
-
         # Process action
         action = process_action(action, cfg.model_family)
 
-        
         if cfg.action_adapter:
             if acting_steps >= 10:
                 if if_replan is False:
@@ -476,15 +448,11 @@ def run_episode(
                             if_replan = True
 
                     cur_mode = precise_mode
-
-                    # print(f"----------frame:{frame_idx}")
-                    # print(f"----------precise:{precise_mode}-----------")
                 
                 if if_replan:
                     if_replan = False
                     action_queue.clear()
-                    # print("----------regenerate-----------")
-            
+
         else:
             # Execute action in environment
             obs, reward, done, info = env.step(action.tolist())
@@ -493,8 +461,7 @@ def run_episode(
             success = True
             break
         t += 1
-        
-    log_message(f"task finished, average infer time:{avg_infer_time:.4f}", log_file)
+
 
     # except Exception as e:
     #     log_message(f"Episode error: {e}", log_file)
@@ -660,14 +627,6 @@ thres = 0.98''', log_file)
     # Start evaluation
     total_episodes, total_successes = 0, 0
     for task_id in tqdm.tqdm(range(num_tasks)):
-
-        # -----------------------------------
-        # if task_id<= 0:
-        #     cfg.num_trials_per_task = 0
-        # else:
-        #     cfg.num_trials_per_task = 40
-        # ----------------------------------
-
         total_episodes, total_successes = run_task(
             cfg,
             task_suite,

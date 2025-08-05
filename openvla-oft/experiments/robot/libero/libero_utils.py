@@ -22,21 +22,12 @@ def save_rollout_frame(rollout_images, layer_idx, frame_idx, total_episodes, log
     layer_dir = f"{rollout_dir}/layer--{layer_idx}"
     os.makedirs(layer_dir, exist_ok=True)
 
-    # 初始化保存路径列表
     png_paths = []
 
-
-    # 确保图像是 NumPy 数组
     img = np.array(rollout_images) if not isinstance(rollout_images, np.ndarray) else rollout_images
 
-    # 生成唯一的 PNG 文件路径，包含帧索引
-    # png_path = f"{layer_dir}/head--{attn_head_idx}_frame--{frame_idx:04d}.png"
     png_path = f"{layer_dir}/frame--{frame_idx:04d}.png"
-
-    # 保存图像为 PNG
     imageio.imwrite(png_path, img.astype(np.uint8))
-
-    # 记录保存路径
     png_paths.append(png_path)
 
     return layer_dir

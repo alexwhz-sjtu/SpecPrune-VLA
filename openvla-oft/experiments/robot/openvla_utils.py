@@ -763,6 +763,9 @@ def get_vla_action(
     """
     with torch.inference_mode():
 
+        prev_attn_indices = []
+        prev_attn_indices_wrist = []
+
         precise_mode = kwargs["precise_mode"]
 
         all_images, result_image, prev_images = multi_image_processing(cfg, obs)
@@ -772,18 +775,14 @@ def get_vla_action(
         if cfg.token_prune:
             primary_topk = PRIMARY_TOPK_PRECISE if precise_mode else PRIMARY_TOPK
             wrist_topk = WRIST_TOPK_PRECISE if precise_mode else WRIST_TOPK
-            attn_topk_p = ATTN_TOPK_PRECISE if precise_mode else ATTN_TOPK
-            attn_topk_w = ATTN_TOPK_PRECISE_WRIST if precise_mode else ATTN_TOPK_WRIST
 
-            high_similarity_indices = get_similarity_indices(result_image[0], prev_images[0], top_k=primary_topk, patch_size=14, sim_threshold=0.9, view="primary")
-            high_similarity_indices_wrist = get_similarity_indices(result_image[1], prev_images[1], top_k=wrist_topk, patch_size=14, sim_threshold=0.9, view="wrist")
+            high_similarity_indices = get_similarity_indices(result_image[0], prev_images[0], top_k=primary_topk, patch_size=14, sim_threshold=0.986, view="primary")
+            high_similarity_indices_wrist = get_similarity_indices(result_image[1], prev_images[1], top_k=wrist_topk, patch_size=14, sim_threshold=0.986, view="wrist")
 
         else:
             high_similarity_indices = []
             high_similarity_indices_wrist = []
-            attn_topk_p = ATTN_TOPK_PRECISE if precise_mode else ATTN_TOPK
-            attn_topk_w = ATTN_TOPK_PRECISE_WRIST if precise_mode else ATTN_TOPK_WRIST
-            
+
 
         start_time = time.time()
             
@@ -837,11 +836,7 @@ def get_vla_action(
         end_time = time.time()
         one_infer = end_time - start_time
 
-        prev_attn_indices = visualize_layer_attn(result_image[0], last_attn, high_similarity_indices, frame_idx, total_episodes, attn_topk_p, primary=True)
-        prev_attn_indices_wrist = visualize_layer_attn(result_image[1], last_attn, high_similarity_indices_wrist, frame_idx ,total_episodes, attn_topk_w, primary=False)
-        prev_attn_indices = torch.cat([prev_attn_indices, prev_attn_indices_wrist])
-        prev_attn_indices = []
-        prev_attn_indices_wrist = []
+
     # Return action chunk as list of actions
     return [action[i] for i in range(len(action))], prev_attn_indices, one_infer, skip_layer_list
 

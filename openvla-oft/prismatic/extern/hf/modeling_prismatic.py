@@ -961,9 +961,6 @@ class OpenVLAForActionPrediction(PrismaticForConditionalGeneration):
         # idx=0, hidden_states[0] represents input_embedding
         if cfg.layer_skip:
             if acting_steps > 1 and acting_steps < 10:
-                # with open(f"./similarity_calculation.txt", "a") as f:
-                #     f.write(f"\n---------------total_episodes : {total_episodes}----------------\n")
-            # if sim_cal:
                 action_hidden_states = []
                 ahs_cos_sim = []
                 # calculate similarity of action hidden states
@@ -980,19 +977,16 @@ class OpenVLAForActionPrediction(PrismaticForConditionalGeneration):
                     sim = torch.nn.functional.cosine_similarity(
                         action_hidden_states[idx], action_hidden_states[idx - 1], dim=-1
                     )
-                    # ahs_cos_sim 是layer 0 之后的余弦相似度
                     ahs_cos_sim.append(sim.mean().item())
-                
                 topk = SKIP_LAYER
                 ahs_cos_sim = torch.tensor(ahs_cos_sim).to(language_model_output.hidden_states[0].device)
                 threshold = 0.9
-                # 找到大于阈值的索引
+
                 above_threshold_indices = (ahs_cos_sim > threshold).nonzero(as_tuple=True)[0]
-                # 如果大于阈值的数量为0，则skip_layer_list为空
+
                 if len(above_threshold_indices) == 0:
                     skip_layer_list = []
                 else:
-                    # 取大于阈值的topk个最大值索引
                     topk = min(len(above_threshold_indices), topk)
                     selected_sim = ahs_cos_sim[above_threshold_indices]
                     topk_values, topk_indices = torch.topk(selected_sim, k=topk, dim=0)
@@ -1000,10 +994,6 @@ class OpenVLAForActionPrediction(PrismaticForConditionalGeneration):
                     
                     print(f"skip:{len(skip_layer_list)}")
 
-
-
-            # print(f"--------------skip_layer_list:{skip_layer_list}---------------")
-            # ------------------------------------------------------------------------------------------
             # -----------------------------------------end---------------------------------------------
 
         return normalized_actions, actions_hidden_states, last_attn, skip_layer_list

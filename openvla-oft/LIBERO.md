@@ -23,7 +23,7 @@ Clone and install the [LIBERO repo](https://github.com/Lifelong-Robot-Learning/L
 
 ```bash
 git clone https://github.com/Lifelong-Robot-Learning/LIBERO.git
-pip install -e LIBERO --use-pep517
+pip install -e LIBER
 pip install -r experiments/robot/libero/libero_requirements.txt  # From openvla-oft base dir
 ```
 
